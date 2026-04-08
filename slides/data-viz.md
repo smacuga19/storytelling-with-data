@@ -38,20 +38,9 @@ A good visualization can reveal what no table of numbers ever could. A bad visua
 
 ## Which representation is clearest?
 
-<div class="example-box" data-title="Same data, different formats">
+![height:500px](figs/data_representations.svg)
 
-Consider a dataset with 4 values: **23, 45, 67, 89**
-
-| Format | Strengths | Weaknesses |
-|-|-|-|
-| Raw numbers: `23, 45, 67, 89` | Precise | Hard to compare at a glance |
-| Table with labels | Organized | Still requires mental math |
-| Bar chart | Instant visual comparison | Less precise |
-| Color-coded heatmap | Shows magnitude intuitively | Harder to read exact values |
-
-**The best representation depends on what you want the audience to take away.**
-
-</div>
+The same data shown three ways. The **heatmap** reveals a face that is invisible in the raw numbers.
 
 ---
 
