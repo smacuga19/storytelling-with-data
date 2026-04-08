@@ -181,7 +181,13 @@ height: 380px
 
 # Heatmap: showing magnitude in a matrix
 
-<p style="text-align: center;"><img src="figs/heatmap.svg" style="width: 80%; max-width: 900px;"></p>
+<p style="text-align: center;"><img src="figs/heatmap.svg" style="width: 55%; max-width: 600px; display: inline-block; vertical-align: top;"><img src="figs/heatmap_corr.png" style="width: 35%; max-width: 400px; display: inline-block; vertical-align: top;"></p>
+
+<div class="note-box" data-title="Color encodes value">
+
+Left: library visits by day and time. Right: correlation matrix. Both use color intensity instead of numbers — revealing patterns at a glance.
+
+</div>
 
 ---
 
@@ -278,7 +284,13 @@ height: 400px
 
 # Choropleth map: coloring regions by value
 
-<p style="text-align: center;"><img src="figs/choropleth.svg" style="width: 80%; max-width: 900px;"></p>
+<p style="text-align: center;"><img src="figs/choropleth.png" style="width: 85%; max-width: 1000px;"></p>
+
+<div class="note-box" data-title="Life expectancy by country (2007)">
+
+Color intensity encodes magnitude. Great for showing regional variation — but large, sparsely populated areas can dominate visually.
+
+</div>
 
 ---
 
@@ -296,53 +308,72 @@ This famous visualization — popularized by [Hans Rosling](https://www.gapminde
 
 # Network graph: showing connections between entities
 
-<p style="text-align: center;"><img src="figs/network_graph.svg" style="width: 80%; max-width: 900px;"></p>
+<p style="text-align: center;"><img src="figs/network_graph.svg" style="width: 90%; max-width: 1050px;"></p>
 
 ---
-<!-- _class: scale-80 -->
+<!-- _class: scale-70 -->
 
-# Nightingale's rose diagram (1858): preventable deaths in the Crimean War
+# Nightingale's rose diagram (1858)
 
-<p style="text-align: center;"><img src="figs/nightingale_rose.svg" style="width: 50%; max-width: 550px;"></p>
+<p style="text-align: center;"><img src="figs/nightingale_rose.svg" style="width: 45%; max-width: 480px;"></p>
 
-Nightingale's polar area chart showed that **preventable diseases** (blue) killed far more soldiers than wounds (red) — convincing the army to prioritize sanitation.
+<div class="note-box" data-title="Preventable deaths in the Crimean War">
 
----
-<!-- _class: scale-90 -->
+Blue = preventable diseases; red = wounds. Nightingale's chart convinced the army to prioritize sanitation — saving thousands of lives.
 
-# Snow's cholera map (1854): founding modern epidemiology
-
-<p style="text-align: center;"><img src="figs/snow_cholera_map.svg" style="width: 55%; max-width: 600px;"></p>
-
-Deaths **clustered around the Broad Street pump** — disproving the "miasma" theory and proving cholera was waterborne.
+</div>
 
 ---
-<!-- _class: scale-90 -->
+<!-- _class: scale-70 -->
+
+# Snow's cholera map (1854)
+
+<p style="text-align: center;"><img src="figs/snow_cholera_map.svg" style="width: 45%; max-width: 500px;"></p>
+
+<div class="note-box" data-title="Founding modern epidemiology">
+
+Deaths clustered around the Broad Street pump — disproving the "miasma" theory and proving cholera was waterborne.
+
+</div>
+
+---
+<!-- _class: scale-70 -->
 
 # Minard's map of Napoleon's Russian campaign (1869)
 
-<p style="text-align: center;"><img src="figs/minard_napoleon.svg" style="width: 95%; max-width: 1100px;"></p>
+![width:1100px](figs/minard_napoleon.svg)
 
-> *"The best statistical graphic ever drawn."* — Edward Tufte
+<div class="tip-box" data-title="&quot;The best statistical graphic ever drawn&quot; — Edward Tufte">
 
 Six variables in one image: army size, location, direction, temperature, latitude, and longitude. The army shrank from 422,000 to 10,000.
 
+</div>
+
 ---
+<!-- _class: scale-60 -->
 
 # The periodic table (1869): organizing all known matter
 
-<p style="text-align: center;"><img src="figs/periodic_table.svg" style="width: 90%; max-width: 1050px;"></p>
+<p style="text-align: center;"><img src="figs/periodic_table.svg" style="width: 80%; max-width: 950px;"></p>
 
-Mendeleev's arrangement revealed **patterns in chemical properties** — and predicted elements that hadn't been discovered yet.
+<div class="note-box" data-title="A visualization that predicted the future">
+
+Mendeleev's arrangement revealed patterns in chemical properties — and predicted elements that hadn't been discovered yet.
+
+</div>
 
 ---
-<!-- _class: scale-90 -->
+<!-- _class: scale-70 -->
 
 # Dimensionality reduction: brain activity organized by cognitive function
 
-<p style="text-align: center;"><img src="figs/neurosynth_by_component.png" style="width: 85%; max-width: 1000px;"></p>
+<p style="text-align: center;"><img src="figs/neurosynth_by_component.png" style="width: 75%; max-width: 900px;"></p>
 
-Each point represents a brain activation pattern; color indicates cognitive domain. Dimensionality reduction reveals how different mental processes cluster and overlap. *(Owen et al., 2021)*
+<div class="note-box" data-title="Owen et al., 2021">
+
+Each point represents a brain activation pattern; color indicates cognitive domain. Dimensionality reduction reveals how different mental processes cluster and overlap.
+
+</div>
 
 ---
 <!-- _class: scale-90 -->
