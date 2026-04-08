@@ -245,7 +245,7 @@ Humans are bad at comparing **angles and areas**. Bar charts are almost always m
 
 ---
 
-# Doughnut chart: a modern alternative to pie
+# Doughnut chart: an alternative to pie (with many of the same issues)
 
 ```chart
 type: doughnut
@@ -289,11 +289,11 @@ This famous visualization — popularized by [Hans Rosling](https://www.gapminde
 <p style="text-align: center;"><img src="figs/network_graph.svg" style="width: 85%; max-width: 1000px;"></p>
 
 ---
-<!-- _class: scale-70 -->
+<!-- _class: scale-80 -->
 
 # Nightingale's rose diagram (1858)
 
-<p style="text-align: center;"><img src="figs/nightingale_rose.svg" style="width: 42%; max-width: 450px;"></p>
+<p style="text-align: center;"><img src="figs/nightingale_rose.svg" style="width: 50%; max-width: 520px;"></p>
 
 <div class="note-box" data-title="Data visualization can save lives!">
 
@@ -315,15 +315,15 @@ Deaths clustered around the Broad Street pump — disproving the "miasma" theory
 </div>
 
 ---
-<!-- _class: scale-70 -->
+<!-- _class: scale-80 -->
 
 # Minard's map of Napoleon's Russian campaign (1869)
 
-<p style="text-align: center;"><img src="figs/minard_napoleon.svg" style="width: 85%; max-width: 950px;"></p>
+<p style="text-align: center;"><img src="figs/minard_napoleon.svg" style="width: 75%; max-width: 850px;"></p>
 
 <div class="tip-box" data-title="&quot;The best statistical graphic ever drawn&quot;">
 
-[Edward Tufte](https://www.edwardtufte.com/tufte/posters) — six variables in one image: army size, location, direction, temperature, latitude, and longitude.
+Six variables in one image: army size, location, direction, temperature, latitude, and longitude. — [Edward Tufte](https://www.edwardtufte.com/tufte/posters)
 
 </div>
 
@@ -341,33 +341,17 @@ Mendeleev's arrangement revealed patterns in chemical properties — and predict
 </div>
 
 ---
-<!-- _class: scale-70 -->
+<!-- _class: scale-75 -->
 
 # Radar plots: visualize many dimensions at once
 
-<p style="text-align: center;"><img src="figs/neurosynth_by_component.png" style="width: 75%; max-width: 900px;"></p>
+<p style="text-align: center;"><span style="display: inline-block; background: white; border: 1px solid #333; border-radius: 12px; padding: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);"><img src="figs/neurosynth_by_component.png" style="width: 100%; max-width: 950px; display: block; border-radius: 8px;"></span></p>
 
-<div class="note-box" data-title="Owen et al., 2024">
+<div class="note-box" data-title="What does it mean?">
 
-Each point represents a brain activation pattern; color indicates cognitive domain. Dimensionality reduction reveals how different mental processes cluster and overlap. [Paper](https://www.pnas.org/doi/10.1073/pnas.2400082121)
+Each point along the circumference of a radar plot denotes a different variable (dimension). Distance from the center encodes magnitude. The shape of the resulting polygon reveals patterns across dimensions.
 
-</div>
-
----
-<!-- _class: scale-90 -->
-
-# General tips
-
-<div class="tip-box" data-title="Putting it all together">
-
-- **Start with the question**, not the chart type — what do you want the audience to learn?
-- Apply Tufte's **data-to-ink ratio** — remove anything that doesn't convey information
-- Use **consistent color schemes** across related figures
-- **Label axes and units** — never make the audience guess
-- Consider your audience — what level of detail do they need?
-- **Iterate!** Your first visualization is rarely your best — refine, simplify, polish
-- Use [colorblind-friendly palettes](https://www.nature.com/articles/nmeth.1618) — about 8% of men have color vision deficiency
-- When in doubt, **ask someone else** if they can understand your figure without your explanation
+Source: [Owen et al., (2024)](https://www.pnas.org/doi/10.1073/pnas.2400082121)
 
 </div>
 
@@ -392,7 +376,7 @@ Each point represents a brain activation pattern; color indicates cognitive doma
 
 <div class="note-box" data-title="Up next...">
 
-- **Thursday:** [Introduction to vibe coding](vibe-coding.html) — learn to use AI tools to create visualizations like these!
+- **Thursday (X-hour):** Vibe coding tips and tricks!
 - **Friday:** Workshop data story ideas + Assignment 2 release
 
 </div>
