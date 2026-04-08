@@ -323,7 +323,7 @@ Deaths clustered around the Broad Street pump — disproving the "miasma" theory
 
 <div class="tip-box" data-title="An amazingly high data-to-ink ratio">
 
-Six variables in one image: army size, location, direction, temperature, latitude, and longitude. — ["&quot;The best statistical graphic ever drawn&quot;"](https://www.edwardtufte.com/tufte/posters) according to Edward Tufte.
+Six variables in one image: army size, location, direction, temperature, latitude, and longitude. — ["The best statistical graphic ever drawn"](https://www.edwardtufte.com/tufte/posters) according to Edward Tufte.
 
 </div>
 
@@ -376,7 +376,7 @@ Source: [Owen et al., (2024)](https://www.pnas.org/doi/10.1073/pnas.2400082121)
 
 <div class="note-box" data-title="Up next...">
 
-- **Thursday (X-hour):** Vibe coding tips and tricks!
+- **Thursday (X-hour):** Continuing to discuss data visualization OR open office hours&mdash; vote!
 - **Friday:** Workshop data story ideas + Assignment 2 release
 
 </div>
