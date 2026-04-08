@@ -175,36 +175,13 @@ height: 380px
 
 # Scatter plot: revealing relationships between variables
 
-```chart
-type: scatter
-labels: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12
-datasets:
-  - label: Study hours vs. exam score
-    data: 42, 48, 55, 52, 63, 58, 70, 65, 75, 80, 78, 88
-palette: cdl
-caption: Each point is one student — more study hours correlate with higher scores
-xlabel: Hours studied
-ylabel: Exam score
-height: 380px
-```
+<p style="text-align: center;"><img src="figs/scatterplot.svg" style="width: 85%; max-width: 950px;"></p>
 
 ---
 
 # Heatmap: showing magnitude in a matrix
 
-<div class="definition-box" data-title="A table where numbers become colors">
-
-A heatmap displays values in a **grid** using **color intensity** instead of numbers. Darker or more saturated colors represent higher (or lower) values.
-
-- Great for: correlation matrices, gene expression, time-of-day patterns, confusion matrices
-
-</div>
-
-<div class="example-box" data-title="You've already seen one!">
-
-The "which representation is clearest?" slide earlier was a heatmap — pixel brightness encoded the face data. The heatmap revealed a pattern that raw numbers could not!
-
-</div>
+<p style="text-align: center;"><img src="figs/heatmap.svg" style="width: 80%; max-width: 900px;"></p>
 
 ---
 
@@ -247,6 +224,8 @@ height: 360px
 ```
 
 ---
+
+<!-- _class: scale-80 -->
 
 # Pie chart: parts of a whole (use sparingly!)
 
@@ -299,17 +278,7 @@ height: 400px
 
 # Choropleth map: coloring regions by value
 
-<div class="definition-box" data-title="Geographic heatmap">
-
-A choropleth map colors geographic regions (countries, states, counties) by a data value. The color intensity represents magnitude.
-
-- Great for showing **regional variation** (election results, income levels, disease prevalence)
-- Can be misleading: large but sparsely populated areas dominate visually
-- Consider **bubble maps** (sized circles on a map) as an alternative
-
-</div>
-
-![height:280px](figs/cloropleth.png)
+<p style="text-align: center;"><img src="figs/choropleth.svg" style="width: 80%; max-width: 900px;"></p>
 
 ---
 

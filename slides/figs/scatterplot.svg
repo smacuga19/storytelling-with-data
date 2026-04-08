@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 950 450" font-family="Avenir, Helvetica, sans-serif">
+<rect width="950" height="450" fill="none"/>
+<line x1="80" y1="50" x2="80" y2="380" stroke="#666" stroke-width="1.5"/>
+<line x1="80" y1="380" x2="880" y2="380" stroke="#666" stroke-width="1.5"/>
+<line x1="80" y1="380" x2="80" y2="386" stroke="#666" stroke-width="1"/>
+<text x="80" y="402" text-anchor="middle" font-size="14" fill="#666">0</text>
+<line x1="80" y1="50" x2="80" y2="380" stroke="#eee" stroke-width="0.5"/>
+<line x1="225" y1="380" x2="225" y2="386" stroke="#666" stroke-width="1"/>
+<text x="225" y="402" text-anchor="middle" font-size="14" fill="#666">2</text>
+<line x1="225" y1="50" x2="225" y2="380" stroke="#eee" stroke-width="0.5"/>
+<line x1="371" y1="380" x2="371" y2="386" stroke="#666" stroke-width="1"/>
+<text x="371" y="402" text-anchor="middle" font-size="14" fill="#666">4</text>
+<line x1="371" y1="50" x2="371" y2="380" stroke="#eee" stroke-width="0.5"/>
+<line x1="516" y1="380" x2="516" y2="386" stroke="#666" stroke-width="1"/>
+<text x="516" y="402" text-anchor="middle" font-size="14" fill="#666">6</text>
+<line x1="516" y1="50" x2="516" y2="380" stroke="#eee" stroke-width="0.5"/>
+<line x1="662" y1="380" x2="662" y2="386" stroke="#666" stroke-width="1"/>
+<text x="662" y="402" text-anchor="middle" font-size="14" fill="#666">8</text>
+<line x1="662" y1="50" x2="662" y2="380" stroke="#eee" stroke-width="0.5"/>
+<line x1="807" y1="380" x2="807" y2="386" stroke="#666" stroke-width="1"/>
+<text x="807" y="402" text-anchor="middle" font-size="14" fill="#666">10</text>
+<line x1="807" y1="50" x2="807" y2="380" stroke="#eee" stroke-width="0.5"/>
+<line x1="74" y1="380" x2="80" y2="380" stroke="#666" stroke-width="1"/>
+<text x="68" y="385" text-anchor="end" font-size="14" fill="#666">20</text>
+<line x1="80" y1="380" x2="880" y2="380" stroke="#eee" stroke-width="0.5"/>
+<line x1="74" y1="298" x2="80" y2="298" stroke="#666" stroke-width="1"/>
+<text x="68" y="302" text-anchor="end" font-size="14" fill="#666">40</text>
+<line x1="80" y1="298" x2="880" y2="298" stroke="#eee" stroke-width="0.5"/>
+<line x1="74" y1="215" x2="80" y2="215" stroke="#666" stroke-width="1"/>
+<text x="68" y="220" text-anchor="end" font-size="14" fill="#666">60</text>
+<line x1="80" y1="215" x2="880" y2="215" stroke="#eee" stroke-width="0.5"/>
+<line x1="74" y1="132" x2="80" y2="132" stroke="#666" stroke-width="1"/>
+<text x="68" y="138" text-anchor="end" font-size="14" fill="#666">80</text>
+<line x1="80" y1="132" x2="880" y2="132" stroke="#eee" stroke-width="0.5"/>
+<line x1="74" y1="50" x2="80" y2="50" stroke="#666" stroke-width="1"/>
+<text x="68" y="55" text-anchor="end" font-size="14" fill="#666">100</text>
+<line x1="80" y1="50" x2="880" y2="50" stroke="#eee" stroke-width="0.5"/>
+<text x="480" y="422" text-anchor="middle" font-size="16" fill="#424141">Hours studied</text>
+<text x="30" y="215" text-anchor="middle" font-size="16" fill="#424141" transform="rotate(-90,30,215)">Exam score</text>
+<circle cx="152.7" cy="297.5" r="7" fill="#00693e" opacity="0.7"/>
+<circle cx="225.5" cy="276.9" r="7" fill="#00693e" opacity="0.7"/>
+<circle cx="261.8" cy="264.5" r="7" fill="#00693e" opacity="0.7"/>
+<circle cx="298.2" cy="235.6" r="7" fill="#00693e" opacity="0.7"/>
+<circle cx="334.5" cy="239.8" r="7" fill="#00693e" opacity="0.7"/>
+<circle cx="370.9" cy="256.2" r="7" fill="#00693e" opacity="0.7"/>
+<circle cx="407.3" cy="210.9" r="7" fill="#00693e" opacity="0.7"/>
+<circle cx="443.6" cy="210.9" r="7" fill="#00693e" opacity="0.7"/>
+<circle cx="480.0" cy="198.5" r="7" fill="#00693e" opacity="0.7"/>
+<circle cx="516.4" cy="177.9" r="7" fill="#00693e" opacity="0.7"/>
+<circle cx="552.7" cy="165.5" r="7" fill="#00693e" opacity="0.7"/>
+<circle cx="589.1" cy="136.6" r="7" fill="#00693e" opacity="0.7"/>
+<circle cx="625.5" cy="132.5" r="7" fill="#00693e" opacity="0.7"/>
+<circle cx="661.8" cy="132.5" r="7" fill="#00693e" opacity="0.7"/>
+<circle cx="698.2" cy="140.8" r="7" fill="#00693e" opacity="0.7"/>
+<circle cx="734.5" cy="136.6" r="7" fill="#00693e" opacity="0.7"/>
+<circle cx="770.9" cy="99.5" r="7" fill="#00693e" opacity="0.7"/>
+<circle cx="807.3" cy="62.4" r="7" fill="#00693e" opacity="0.7"/>
+<line x1="116" y1="307" x2="844" y2="80" stroke="#00693e" stroke-width="2" stroke-dasharray="8,5" opacity="0.4"/>
+<text x="475" y="445" text-anchor="middle" font-size="14" fill="#666" font-style="italic">Each point is one student — more study hours correlate with higher scores</text>
+</svg>
