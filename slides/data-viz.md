@@ -294,31 +294,27 @@ This famous visualization — popularized by [Hans Rosling](https://www.gapminde
 
 ---
 
-# Visualizations that changed the world
+# Network graph: showing connections between entities
 
-<div class="note-box" data-title="Data visualization has shaped history">
+<p style="text-align: center;"><img src="figs/network_graph.svg" style="width: 80%; max-width: 900px;"></p>
 
-The best visualizations don't just display data — they **change how people think and act**. Here are three that transformed public health, military strategy, and epidemiology.
+---
+<!-- _class: scale-80 -->
 
-</div>
+# Nightingale's rose diagram (1858): preventable deaths in the Crimean War
+
+<p style="text-align: center;"><img src="figs/nightingale_rose.svg" style="width: 50%; max-width: 550px;"></p>
+
+Nightingale's polar area chart showed that **preventable diseases** (blue) killed far more soldiers than wounds (red) — convincing the army to prioritize sanitation.
 
 ---
 <!-- _class: scale-90 -->
 
-# Florence Nightingale's rose diagram (1858)
+# Snow's cholera map (1854): founding modern epidemiology
 
-<p style="text-align: center;"><img src="figs/nightingale_rose.svg" style="width: 55%; max-width: 600px;"></p>
+<p style="text-align: center;"><img src="figs/snow_cholera_map.svg" style="width: 55%; max-width: 600px;"></p>
 
-Nightingale's polar area chart showed that **preventable diseases** (blue) killed far more British soldiers than battle wounds (red). This visualization convinced the army to prioritize sanitation — saving thousands of lives.
-
----
-<!-- _class: scale-90 -->
-
-# John Snow's cholera map (1854)
-
-<p style="text-align: center;"><img src="figs/snow_cholera_map.svg" style="width: 60%; max-width: 650px;"></p>
-
-Snow plotted cholera deaths on a map of London's Soho district. The deaths **clustered around the Broad Street water pump** — disproving the "miasma" theory and founding modern epidemiology.
+Deaths **clustered around the Broad Street pump** — disproving the "miasma" theory and proving cholera was waterborne.
 
 ---
 <!-- _class: scale-90 -->
@@ -327,7 +323,26 @@ Snow plotted cholera deaths on a map of London's Soho district. The deaths **clu
 
 <p style="text-align: center;"><img src="figs/minard_napoleon.svg" style="width: 95%; max-width: 1100px;"></p>
 
-Called "the best statistical graphic ever drawn" — this single image encodes **six variables**: army size, location, direction, temperature, latitude, and longitude. The army shrank from 422,000 to 10,000.
+> *"The best statistical graphic ever drawn."* — Edward Tufte
+
+Six variables in one image: army size, location, direction, temperature, latitude, and longitude. The army shrank from 422,000 to 10,000.
+
+---
+
+# The periodic table (1869): organizing all known matter
+
+<p style="text-align: center;"><img src="figs/periodic_table.svg" style="width: 90%; max-width: 1050px;"></p>
+
+Mendeleev's arrangement revealed **patterns in chemical properties** — and predicted elements that hadn't been discovered yet.
+
+---
+<!-- _class: scale-90 -->
+
+# Dimensionality reduction: brain activity organized by cognitive function
+
+<p style="text-align: center;"><img src="figs/neurosynth_by_component.png" style="width: 85%; max-width: 1000px;"></p>
+
+Each point represents a brain activation pattern; color indicates cognitive domain. Dimensionality reduction reveals how different mental processes cluster and overlap. *(Owen et al., 2021)*
 
 ---
 <!-- _class: scale-90 -->

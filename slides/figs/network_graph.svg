@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="500" viewBox="0 0 900 500" fill="none">
+  <style>
+    text { font-family: Avenir, Helvetica, sans-serif; font-size: 11px; fill: #333; text-anchor: middle; dominant-baseline: central; }
+  </style>
+
+  <!-- Edges: inter-cluster (fewer) -->
+  <line x1="280" y1="175" x2="580" y2="155" stroke="#424141" stroke-opacity="0.3" stroke-width="1"/>
+  <line x1="310" y1="230" x2="500" y2="380" stroke="#424141" stroke-opacity="0.3" stroke-width="1"/>
+  <line x1="250" y1="210" x2="460" y2="360" stroke="#424141" stroke-opacity="0.3" stroke-width="1"/>
+  <line x1="340" y1="145" x2="620" y2="200" stroke="#424141" stroke-opacity="0.3" stroke-width="1"/>
+  <line x1="580" y1="200" x2="530" y2="350" stroke="#424141" stroke-opacity="0.3" stroke-width="1"/>
+  <line x1="620" y1="155" x2="560" y2="340" stroke="#424141" stroke-opacity="0.3" stroke-width="1"/>
+  <line x1="280" y1="130" x2="650" y2="120" stroke="#424141" stroke-opacity="0.3" stroke-width="1"/>
+  <line x1="350" y1="200" x2="550" y2="400" stroke="#424141" stroke-opacity="0.3" stroke-width="1"/>
+
+  <!-- Edges: Cluster A (green) intra-cluster -->
+  <line x1="250" y1="170" x2="200" y2="130" stroke="#424141" stroke-opacity="0.3" stroke-width="1.5"/>
+  <line x1="250" y1="170" x2="310" y2="140" stroke="#424141" stroke-opacity="0.3" stroke-width="1.5"/>
+  <line x1="250" y1="170" x2="280" y2="230" stroke="#424141" stroke-opacity="0.3" stroke-width="1.5"/>
+  <line x1="250" y1="170" x2="190" y2="220" stroke="#424141" stroke-opacity="0.3" stroke-width="1.5"/>
+  <line x1="250" y1="170" x2="320" y2="200" stroke="#424141" stroke-opacity="0.3" stroke-width="1.5"/>
+  <line x1="200" y1="130" x2="310" y2="140" stroke="#424141" stroke-opacity="0.3" stroke-width="1"/>
+  <line x1="200" y1="130" x2="150" y2="180" stroke="#424141" stroke-opacity="0.3" stroke-width="1"/>
+  <line x1="310" y1="140" x2="320" y2="200" stroke="#424141" stroke-opacity="0.3" stroke-width="1"/>
+  <line x1="280" y1="230" x2="190" y2="220" stroke="#424141" stroke-opacity="0.3" stroke-width="1"/>
+  <line x1="150" y1="180" x2="190" y2="220" stroke="#424141" stroke-opacity="0.3" stroke-width="1"/>
+  <line x1="250" y1="170" x2="150" y2="180" stroke="#424141" stroke-opacity="0.3" stroke-width="1.5"/>
+  <line x1="320" y1="200" x2="280" y2="230" stroke="#424141" stroke-opacity="0.3" stroke-width="1"/>
+
+  <!-- Edges: Cluster B (blue) intra-cluster -->
+  <line x1="620" y1="155" x2="570" y2="110" stroke="#424141" stroke-opacity="0.3" stroke-width="1.5"/>
+  <line x1="620" y1="155" x2="680" y2="120" stroke="#424141" stroke-opacity="0.3" stroke-width="1.5"/>
+  <line x1="620" y1="155" x2="660" y2="210" stroke="#424141" stroke-opacity="0.3" stroke-width="1.5"/>
+  <line x1="620" y1="155" x2="580" y2="200" stroke="#424141" stroke-opacity="0.3" stroke-width="1.5"/>
+  <line x1="620" y1="155" x2="720" y2="170" stroke="#424141" stroke-opacity="0.3" stroke-width="1.5"/>
+  <line x1="570" y1="110" x2="680" y2="120" stroke="#424141" stroke-opacity="0.3" stroke-width="1"/>
+  <line x1="680" y1="120" x2="720" y2="170" stroke="#424141" stroke-opacity="0.3" stroke-width="1"/>
+  <line x1="660" y1="210" x2="580" y2="200" stroke="#424141" stroke-opacity="0.3" stroke-width="1"/>
+  <line x1="660" y1="210" x2="720" y2="170" stroke="#424141" stroke-opacity="0.3" stroke-width="1"/>
+  <line x1="570" y1="110" x2="580" y2="200" stroke="#424141" stroke-opacity="0.3" stroke-width="1"/>
+  <line x1="620" y1="155" x2="550" y2="170" stroke="#424141" stroke-opacity="0.3" stroke-width="1.5"/>
+  <line x1="550" y1="170" x2="570" y2="110" stroke="#424141" stroke-opacity="0.3" stroke-width="1"/>
+  <line x1="550" y1="170" x2="580" y2="200" stroke="#424141" stroke-opacity="0.3" stroke-width="1"/>
+
+  <!-- Edges: Cluster C (orange) intra-cluster -->
+  <line x1="480" y1="370" x2="420" y2="340" stroke="#424141" stroke-opacity="0.3" stroke-width="1.5"/>
+  <line x1="480" y1="370" x2="540" y2="350" stroke="#424141" stroke-opacity="0.3" stroke-width="1.5"/>
+  <line x1="480" y1="370" x2="450" y2="420" stroke="#424141" stroke-opacity="0.3" stroke-width="1.5"/>
+  <line x1="480" y1="370" x2="530" y2="420" stroke="#424141" stroke-opacity="0.3" stroke-width="1.5"/>
+  <line x1="480" y1="370" x2="560" y2="400" stroke="#424141" stroke-opacity="0.3" stroke-width="1.5"/>
+  <line x1="420" y1="340" x2="450" y2="420" stroke="#424141" stroke-opacity="0.3" stroke-width="1"/>
+  <line x1="540" y1="350" x2="560" y2="400" stroke="#424141" stroke-opacity="0.3" stroke-width="1"/>
+  <line x1="530" y1="420" x2="560" y2="400" stroke="#424141" stroke-opacity="0.3" stroke-width="1"/>
+  <line x1="450" y1="420" x2="530" y2="420" stroke="#424141" stroke-opacity="0.3" stroke-width="1"/>
+  <line x1="420" y1="340" x2="540" y2="350" stroke="#424141" stroke-opacity="0.3" stroke-width="1"/>
+
+  <!-- Cluster A nodes (green, top-left) -->
+  <circle cx="250" cy="170" r="20" fill="#00693e" fill-opacity="0.8" stroke="white" stroke-width="1.5"/>
+  <text x="250" y="170" fill="white" font-weight="bold">A1</text>
+
+  <circle cx="200" cy="130" r="14" fill="#00693e" fill-opacity="0.8" stroke="white" stroke-width="1.5"/>
+  <text x="200" y="130" fill="white">A2</text>
+
+  <circle cx="310" cy="140" r="13" fill="#00693e" fill-opacity="0.8" stroke="white" stroke-width="1.5"/>
+  <text x="310" y="140" fill="white">A3</text>
+
+  <circle cx="280" cy="230" r="11" fill="#00693e" fill-opacity="0.8" stroke="white" stroke-width="1.5"/>
+  <text x="280" y="230" fill="white">A4</text>
+
+  <circle cx="190" cy="220" r="11" fill="#00693e" fill-opacity="0.8" stroke="white" stroke-width="1.5"/>
+  <text x="190" y="220" fill="white">A5</text>
+
+  <circle cx="320" cy="200" r="10" fill="#00693e" fill-opacity="0.8" stroke="white" stroke-width="1.5"/>
+  <text x="320" y="200" fill="white">A6</text>
+
+  <circle cx="150" cy="180" r="10" fill="#00693e" fill-opacity="0.8" stroke="white" stroke-width="1.5"/>
+  <text x="150" y="180" fill="white">A7</text>
+
+  <!-- Cluster B nodes (blue, top-right) -->
+  <circle cx="620" cy="155" r="20" fill="#267aba" fill-opacity="0.8" stroke="white" stroke-width="1.5"/>
+  <text x="620" y="155" fill="white" font-weight="bold">B1</text>
+
+  <circle cx="570" cy="110" r="14" fill="#267aba" fill-opacity="0.8" stroke="white" stroke-width="1.5"/>
+  <text x="570" y="110" fill="white">B2</text>
+
+  <circle cx="680" cy="120" r="13" fill="#267aba" fill-opacity="0.8" stroke="white" stroke-width="1.5"/>
+  <text x="680" y="120" fill="white">B3</text>
+
+  <circle cx="660" cy="210" r="12" fill="#267aba" fill-opacity="0.8" stroke="white" stroke-width="1.5"/>
+  <text x="660" y="210" fill="white">B4</text>
+
+  <circle cx="580" cy="200" r="12" fill="#267aba" fill-opacity="0.8" stroke="white" stroke-width="1.5"/>
+  <text x="580" y="200" fill="white">B5</text>
+
+  <circle cx="720" cy="170" r="11" fill="#267aba" fill-opacity="0.8" stroke="white" stroke-width="1.5"/>
+  <text x="720" y="170" fill="white">B6</text>
+
+  <circle cx="550" cy="170" r="10" fill="#267aba" fill-opacity="0.8" stroke="white" stroke-width="1.5"/>
+  <text x="550" y="170" fill="white">B7</text>
+
+  <!-- Cluster C nodes (orange, bottom-center) -->
+  <circle cx="480" cy="370" r="19" fill="#ffa00f" fill-opacity="0.8" stroke="white" stroke-width="1.5"/>
+  <text x="480" y="370" fill="white" font-weight="bold">C1</text>
+
+  <circle cx="420" cy="340" r="13" fill="#ffa00f" fill-opacity="0.8" stroke="white" stroke-width="1.5"/>
+  <text x="420" y="340" fill="white">C2</text>
+
+  <circle cx="540" cy="350" r="12" fill="#ffa00f" fill-opacity="0.8" stroke="white" stroke-width="1.5"/>
+  <text x="540" y="350" fill="white">C3</text>
+
+  <circle cx="450" cy="420" r="11" fill="#ffa00f" fill-opacity="0.8" stroke="white" stroke-width="1.5"/>
+  <text x="450" y="420" fill="white">C4</text>
+
+  <circle cx="530" cy="420" r="10" fill="#ffa00f" fill-opacity="0.8" stroke="white" stroke-width="1.5"/>
+  <text x="530" y="420" fill="white">C5</text>
+
+  <circle cx="560" cy="400" r="11" fill="#ffa00f" fill-opacity="0.8" stroke="white" stroke-width="1.5"/>
+  <text x="560" y="400" fill="white">C6</text>
+</svg>

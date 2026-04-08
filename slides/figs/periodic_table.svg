@@ -1,0 +1,490 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600" width="1000" height="600" fill="none">
+  <style>
+    text { font-family: Avenir, Helvetica, sans-serif; }
+    .symbol { font-size: 18px; font-weight: 600; fill: #2d2d2d; }
+    .number { font-size: 9px; fill: #555; }
+  </style>
+  <defs>
+    <!-- Category colors as reusable classes -->
+  </defs>
+  <!-- Row 1 -->
+  <g transform="translate(10,10)">
+    <!-- H -->
+    <rect x="0" y="0" width="50" height="55" rx="4" fill="#00693e" opacity="0.15" stroke="#00693e" stroke-width="0.5" stroke-opacity="0.3"/>
+    <text x="6" y="12" class="number">1</text>
+    <text x="25" y="38" class="symbol" text-anchor="middle">H</text>
+    <!-- He -->
+    <rect x="850" y="0" width="50" height="55" rx="4" fill="#424141" opacity="0.15" stroke="#424141" stroke-width="0.5" stroke-opacity="0.3"/>
+    <text x="856" y="12" class="number">2</text>
+    <text x="875" y="38" class="symbol" text-anchor="middle">He</text>
+  </g>
+  <!-- Row 2 -->
+  <g transform="translate(10,75)">
+    <!-- Li -->
+    <rect x="0" y="0" width="50" height="55" rx="4" fill="#9d162e" opacity="0.15" stroke="#9d162e" stroke-width="0.5" stroke-opacity="0.3"/>
+    <text x="6" y="12" class="number">3</text>
+    <text x="25" y="38" class="symbol" text-anchor="middle">Li</text>
+    <!-- Be -->
+    <rect x="50" y="0" width="50" height="55" rx="4" fill="#ffa00f" opacity="0.15" stroke="#ffa00f" stroke-width="0.5" stroke-opacity="0.3"/>
+    <text x="56" y="12" class="number">4</text>
+    <text x="75" y="38" class="symbol" text-anchor="middle">Be</text>
+    <!-- B -->
+    <rect x="600" y="0" width="50" height="55" rx="4" fill="#643c20" opacity="0.15" stroke="#643c20" stroke-width="0.5" stroke-opacity="0.3"/>
+    <text x="606" y="12" class="number">5</text>
+    <text x="625" y="38" class="symbol" text-anchor="middle">B</text>
+    <!-- C -->
+    <rect x="650" y="0" width="50" height="55" rx="4" fill="#00693e" opacity="0.15" stroke="#00693e" stroke-width="0.5" stroke-opacity="0.3"/>
+    <text x="656" y="12" class="number">6</text>
+    <text x="675" y="38" class="symbol" text-anchor="middle">C</text>
+    <!-- N -->
+    <rect x="700" y="0" width="50" height="55" rx="4" fill="#00693e" opacity="0.15" stroke="#00693e" stroke-width="0.5" stroke-opacity="0.3"/>
+    <text x="706" y="12" class="number">7</text>
+    <text x="725" y="38" class="symbol" text-anchor="middle">N</text>
+    <!-- O -->
+    <rect x="750" y="0" width="50" height="55" rx="4" fill="#00693e" opacity="0.15" stroke="#00693e" stroke-width="0.5" stroke-opacity="0.3"/>
+    <text x="756" y="12" class="number">8</text>
+    <text x="775" y="38" class="symbol" text-anchor="middle">O</text>
+    <!-- F -->
+    <rect x="800" y="0" width="50" height="55" rx="4" fill="#00693e" opacity="0.15" stroke="#00693e" stroke-width="0.5" stroke-opacity="0.3"/>
+    <text x="806" y="12" class="number">9</text>
+    <text x="825" y="38" class="symbol" text-anchor="middle">F</text>
+    <!-- Ne -->
+    <rect x="850" y="0" width="50" height="55" rx="4" fill="#424141" opacity="0.15" stroke="#424141" stroke-width="0.5" stroke-opacity="0.3"/>
+    <text x="856" y="12" class="number">10</text>
+    <text x="875" y="38" class="symbol" text-anchor="middle">Ne</text>
+  </g>
+  <!-- Row 3 -->
+  <g transform="translate(10,140)">
+    <!-- Na -->
+    <rect x="0" y="0" width="50" height="55" rx="4" fill="#9d162e" opacity="0.15" stroke="#9d162e" stroke-width="0.5" stroke-opacity="0.3"/>
+    <text x="6" y="12" class="number">11</text>
+    <text x="25" y="38" class="symbol" text-anchor="middle">Na</text>
+    <!-- Mg -->
+    <rect x="50" y="0" width="50" height="55" rx="4" fill="#ffa00f" opacity="0.15" stroke="#ffa00f" stroke-width="0.5" stroke-opacity="0.3"/>
+    <text x="56" y="12" class="number">12</text>
+    <text x="75" y="38" class="symbol" text-anchor="middle">Mg</text>
+    <!-- Al -->
+    <rect x="600" y="0" width="50" height="55" rx="4" fill="#8a6996" opacity="0.15" stroke="#8a6996" stroke-width="0.5" stroke-opacity="0.3"/>
+    <text x="606" y="12" class="number">13</text>
+    <text x="625" y="38" class="symbol" text-anchor="middle">Al</text>
+    <!-- Si -->
+    <rect x="650" y="0" width="50" height="55" rx="4" fill="#643c20" opacity="0.15" stroke="#643c20" stroke-width="0.5" stroke-opacity="0.3"/>
+    <text x="656" y="12" class="number">14</text>
+    <text x="675" y="38" class="symbol" text-anchor="middle">Si</text>
+    <!-- P -->
+    <rect x="700" y="0" width="50" height="55" rx="4" fill="#00693e" opacity="0.15" stroke="#00693e" stroke-width="0.5" stroke-opacity="0.3"/>
+    <text x="706" y="12" class="number">15</text>
+    <text x="725" y="38" class="symbol" text-anchor="middle">P</text>
+    <!-- S -->
+    <rect x="750" y="0" width="50" height="55" rx="4" fill="#00693e" opacity="0.15" stroke="#00693e" stroke-width="0.5" stroke-opacity="0.3"/>
+    <text x="756" y="12" class="number">16</text>
+    <text x="775" y="38" class="symbol" text-anchor="middle">S</text>
+    <!-- Cl -->
+    <rect x="800" y="0" width="50" height="55" rx="4" fill="#00693e" opacity="0.15" stroke="#00693e" stroke-width="0.5" stroke-opacity="0.3"/>
+    <text x="806" y="12" class="number">17</text>
+    <text x="825" y="38" class="symbol" text-anchor="middle">Cl</text>
+    <!-- Ar -->
+    <rect x="850" y="0" width="50" height="55" rx="4" fill="#424141" opacity="0.15" stroke="#424141" stroke-width="0.5" stroke-opacity="0.3"/>
+    <text x="856" y="12" class="number">18</text>
+    <text x="875" y="38" class="symbol" text-anchor="middle">Ar</text>
+  </g>
+  <!-- Row 4 (K through Kr) -->
+  <g transform="translate(10,205)">
+    <!-- K -->
+    <rect x="0" y="0" width="50" height="55" rx="4" fill="#9d162e" opacity="0.15" stroke="#9d162e" stroke-width="0.5" stroke-opacity="0.3"/>
+    <text x="6" y="12" class="number">19</text>
+    <text x="25" y="38" class="symbol" text-anchor="middle">K</text>
+    <!-- Ca -->
+    <rect x="50" y="0" width="50" height="55" rx="4" fill="#ffa00f" opacity="0.15" stroke="#ffa00f" stroke-width="0.5" stroke-opacity="0.3"/>
+    <text x="56" y="12" class="number">20</text>
+    <text x="75" y="38" class="symbol" text-anchor="middle">Ca</text>
+    <!-- Sc -->
+    <rect x="100" y="0" width="50" height="55" rx="4" fill="#267aba" opacity="0.15" stroke="#267aba" stroke-width="0.5" stroke-opacity="0.3"/>
+    <text x="106" y="12" class="number">21</text>
+    <text x="125" y="38" class="symbol" text-anchor="middle">Sc</text>
+    <!-- Ti -->
+    <rect x="150" y="0" width="50" height="55" rx="4" fill="#267aba" opacity="0.15" stroke="#267aba" stroke-width="0.5" stroke-opacity="0.3"/>
+    <text x="156" y="12" class="number">22</text>
+    <text x="175" y="38" class="symbol" text-anchor="middle">Ti</text>
+    <!-- V -->
+    <rect x="200" y="0" width="50" height="55" rx="4" fill="#267aba" opacity="0.15" stroke="#267aba" stroke-width="0.5" stroke-opacity="0.3"/>
+    <text x="206" y="12" class="number">23</text>
+    <text x="225" y="38" class="symbol" text-anchor="middle">V</text>
+    <!-- Cr -->
+    <rect x="250" y="0" width="50" height="55" rx="4" fill="#267aba" opacity="0.15" stroke="#267aba" stroke-width="0.5" stroke-opacity="0.3"/>
+    <text x="256" y="12" class="number">24</text>
+    <text x="275" y="38" class="symbol" text-anchor="middle">Cr</text>
+    <!-- Mn -->
+    <rect x="300" y="0" width="50" height="55" rx="4" fill="#267aba" opacity="0.15" stroke="#267aba" stroke-width="0.5" stroke-opacity="0.3"/>
+    <text x="306" y="12" class="number">25</text>
+    <text x="325" y="38" class="symbol" text-anchor="middle">Mn</text>
+    <!-- Fe -->
+    <rect x="350" y="0" width="50" height="55" rx="4" fill="#267aba" opacity="0.15" stroke="#267aba" stroke-width="0.5" stroke-opacity="0.3"/>
+    <text x="356" y="12" class="number">26</text>
+    <text x="375" y="38" class="symbol" text-anchor="middle">Fe</text>
+    <!-- Co -->
+    <rect x="400" y="0" width="50" height="55" rx="4" fill="#267aba" opacity="0.15" stroke="#267aba" stroke-width="0.5" stroke-opacity="0.3"/>
+    <text x="406" y="12" class="number">27</text>
+    <text x="425" y="38" class="symbol" text-anchor="middle">Co</text>
+    <!-- Ni -->
+    <rect x="450" y="0" width="50" height="55" rx="4" fill="#267aba" opacity="0.15" stroke="#267aba" stroke-width="0.5" stroke-opacity="0.3"/>
+    <text x="456" y="12" class="number">28</text>
+    <text x="475" y="38" class="symbol" text-anchor="middle">Ni</text>
+    <!-- Cu -->
+    <rect x="500" y="0" width="50" height="55" rx="4" fill="#267aba" opacity="0.15" stroke="#267aba" stroke-width="0.5" stroke-opacity="0.3"/>
+    <text x="506" y="12" class="number">29</text>
+    <text x="525" y="38" class="symbol" text-anchor="middle">Cu</text>
+    <!-- Zn -->
+    <rect x="550" y="0" width="50" height="55" rx="4" fill="#267aba" opacity="0.15" stroke="#267aba" stroke-width="0.5" stroke-opacity="0.3"/>
+    <text x="556" y="12" class="number">30</text>
+    <text x="575" y="38" class="symbol" text-anchor="middle">Zn</text>
+    <!-- Ga -->
+    <rect x="600" y="0" width="50" height="55" rx="4" fill="#8a6996" opacity="0.15" stroke="#8a6996" stroke-width="0.5" stroke-opacity="0.3"/>
+    <text x="606" y="12" class="number">31</text>
+    <text x="625" y="38" class="symbol" text-anchor="middle">Ga</text>
+    <!-- Ge -->
+    <rect x="650" y="0" width="50" height="55" rx="4" fill="#643c20" opacity="0.15" stroke="#643c20" stroke-width="0.5" stroke-opacity="0.3"/>
+    <text x="656" y="12" class="number">32</text>
+    <text x="675" y="38" class="symbol" text-anchor="middle">Ge</text>
+    <!-- As -->
+    <rect x="700" y="0" width="50" height="55" rx="4" fill="#643c20" opacity="0.15" stroke="#643c20" stroke-width="0.5" stroke-opacity="0.3"/>
+    <text x="706" y="12" class="number">33</text>
+    <text x="725" y="38" class="symbol" text-anchor="middle">As</text>
+    <!-- Se -->
+    <rect x="750" y="0" width="50" height="55" rx="4" fill="#00693e" opacity="0.15" stroke="#00693e" stroke-width="0.5" stroke-opacity="0.3"/>
+    <text x="756" y="12" class="number">34</text>
+    <text x="775" y="38" class="symbol" text-anchor="middle">Se</text>
+    <!-- Br -->
+    <rect x="800" y="0" width="50" height="55" rx="4" fill="#00693e" opacity="0.15" stroke="#00693e" stroke-width="0.5" stroke-opacity="0.3"/>
+    <text x="806" y="12" class="number">35</text>
+    <text x="825" y="38" class="symbol" text-anchor="middle">Br</text>
+    <!-- Kr -->
+    <rect x="850" y="0" width="50" height="55" rx="4" fill="#424141" opacity="0.15" stroke="#424141" stroke-width="0.5" stroke-opacity="0.3"/>
+    <text x="856" y="12" class="number">36</text>
+    <text x="875" y="38" class="symbol" text-anchor="middle">Kr</text>
+  </g>
+  <!-- Row 5 (representative elements) -->
+  <g transform="translate(10,270)">
+    <!-- Rb -->
+    <rect x="0" y="0" width="50" height="55" rx="4" fill="#9d162e" opacity="0.15" stroke="#9d162e" stroke-width="0.5" stroke-opacity="0.3"/>
+    <text x="6" y="12" class="number">37</text>
+    <text x="25" y="38" class="symbol" text-anchor="middle">Rb</text>
+    <!-- Sr -->
+    <rect x="50" y="0" width="50" height="55" rx="4" fill="#ffa00f" opacity="0.15" stroke="#ffa00f" stroke-width="0.5" stroke-opacity="0.3"/>
+    <text x="56" y="12" class="number">38</text>
+    <text x="75" y="38" class="symbol" text-anchor="middle">Sr</text>
+    <!-- Y -->
+    <rect x="100" y="0" width="50" height="55" rx="4" fill="#267aba" opacity="0.15" stroke="#267aba" stroke-width="0.5" stroke-opacity="0.3"/>
+    <text x="106" y="12" class="number">39</text>
+    <text x="125" y="38" class="symbol" text-anchor="middle">Y</text>
+    <!-- Zr-Cd: transition metals -->
+    <rect x="150" y="0" width="50" height="55" rx="4" fill="#267aba" opacity="0.15" stroke="#267aba" stroke-width="0.5" stroke-opacity="0.3"/>
+    <text x="156" y="12" class="number">40</text>
+    <text x="175" y="38" class="symbol" text-anchor="middle">Zr</text>
+    <rect x="200" y="0" width="50" height="55" rx="4" fill="#267aba" opacity="0.15" stroke="#267aba" stroke-width="0.5" stroke-opacity="0.3"/>
+    <text x="206" y="12" class="number">41</text>
+    <text x="225" y="38" class="symbol" text-anchor="middle">Nb</text>
+    <rect x="250" y="0" width="50" height="55" rx="4" fill="#267aba" opacity="0.15" stroke="#267aba" stroke-width="0.5" stroke-opacity="0.3"/>
+    <text x="256" y="12" class="number">42</text>
+    <text x="275" y="38" class="symbol" text-anchor="middle">Mo</text>
+    <rect x="300" y="0" width="50" height="55" rx="4" fill="#267aba" opacity="0.15" stroke="#267aba" stroke-width="0.5" stroke-opacity="0.3"/>
+    <text x="306" y="12" class="number">43</text>
+    <text x="325" y="38" class="symbol" text-anchor="middle">Tc</text>
+    <rect x="350" y="0" width="50" height="55" rx="4" fill="#267aba" opacity="0.15" stroke="#267aba" stroke-width="0.5" stroke-opacity="0.3"/>
+    <text x="356" y="12" class="number">44</text>
+    <text x="375" y="38" class="symbol" text-anchor="middle">Ru</text>
+    <rect x="400" y="0" width="50" height="55" rx="4" fill="#267aba" opacity="0.15" stroke="#267aba" stroke-width="0.5" stroke-opacity="0.3"/>
+    <text x="406" y="12" class="number">45</text>
+    <text x="425" y="38" class="symbol" text-anchor="middle">Rh</text>
+    <rect x="450" y="0" width="50" height="55" rx="4" fill="#267aba" opacity="0.15" stroke="#267aba" stroke-width="0.5" stroke-opacity="0.3"/>
+    <text x="456" y="12" class="number">46</text>
+    <text x="475" y="38" class="symbol" text-anchor="middle">Pd</text>
+    <rect x="500" y="0" width="50" height="55" rx="4" fill="#267aba" opacity="0.15" stroke="#267aba" stroke-width="0.5" stroke-opacity="0.3"/>
+    <text x="506" y="12" class="number">47</text>
+    <text x="525" y="38" class="symbol" text-anchor="middle">Ag</text>
+    <rect x="550" y="0" width="50" height="55" rx="4" fill="#267aba" opacity="0.15" stroke="#267aba" stroke-width="0.5" stroke-opacity="0.3"/>
+    <text x="556" y="12" class="number">48</text>
+    <text x="575" y="38" class="symbol" text-anchor="middle">Cd</text>
+    <!-- In -->
+    <rect x="600" y="0" width="50" height="55" rx="4" fill="#8a6996" opacity="0.15" stroke="#8a6996" stroke-width="0.5" stroke-opacity="0.3"/>
+    <text x="606" y="12" class="number">49</text>
+    <text x="625" y="38" class="symbol" text-anchor="middle">In</text>
+    <!-- Sn -->
+    <rect x="650" y="0" width="50" height="55" rx="4" fill="#8a6996" opacity="0.15" stroke="#8a6996" stroke-width="0.5" stroke-opacity="0.3"/>
+    <text x="656" y="12" class="number">50</text>
+    <text x="675" y="38" class="symbol" text-anchor="middle">Sn</text>
+    <!-- Sb -->
+    <rect x="700" y="0" width="50" height="55" rx="4" fill="#643c20" opacity="0.15" stroke="#643c20" stroke-width="0.5" stroke-opacity="0.3"/>
+    <text x="706" y="12" class="number">51</text>
+    <text x="725" y="38" class="symbol" text-anchor="middle">Sb</text>
+    <!-- Te -->
+    <rect x="750" y="0" width="50" height="55" rx="4" fill="#643c20" opacity="0.15" stroke="#643c20" stroke-width="0.5" stroke-opacity="0.3"/>
+    <text x="756" y="12" class="number">52</text>
+    <text x="775" y="38" class="symbol" text-anchor="middle">Te</text>
+    <!-- I -->
+    <rect x="800" y="0" width="50" height="55" rx="4" fill="#00693e" opacity="0.15" stroke="#00693e" stroke-width="0.5" stroke-opacity="0.3"/>
+    <text x="806" y="12" class="number">53</text>
+    <text x="825" y="38" class="symbol" text-anchor="middle">I</text>
+    <!-- Xe -->
+    <rect x="850" y="0" width="50" height="55" rx="4" fill="#424141" opacity="0.15" stroke="#424141" stroke-width="0.5" stroke-opacity="0.3"/>
+    <text x="856" y="12" class="number">54</text>
+    <text x="875" y="38" class="symbol" text-anchor="middle">Xe</text>
+  </g>
+  <!-- Row 6 (representative) -->
+  <g transform="translate(10,335)">
+    <!-- Cs -->
+    <rect x="0" y="0" width="50" height="55" rx="4" fill="#9d162e" opacity="0.15" stroke="#9d162e" stroke-width="0.5" stroke-opacity="0.3"/>
+    <text x="6" y="12" class="number">55</text>
+    <text x="25" y="38" class="symbol" text-anchor="middle">Cs</text>
+    <!-- Ba -->
+    <rect x="50" y="0" width="50" height="55" rx="4" fill="#ffa00f" opacity="0.15" stroke="#ffa00f" stroke-width="0.5" stroke-opacity="0.3"/>
+    <text x="56" y="12" class="number">56</text>
+    <text x="75" y="38" class="symbol" text-anchor="middle">Ba</text>
+    <!-- La* marker -->
+    <rect x="100" y="0" width="50" height="55" rx="4" fill="#267aba" opacity="0.08" stroke="#267aba" stroke-width="0.5" stroke-opacity="0.2"/>
+    <text x="106" y="12" class="number">57-71</text>
+    <text x="125" y="38" class="symbol" text-anchor="middle" font-size="12" opacity="0.6">*</text>
+    <!-- Hf-Hg: transition metals -->
+    <rect x="150" y="0" width="50" height="55" rx="4" fill="#267aba" opacity="0.15" stroke="#267aba" stroke-width="0.5" stroke-opacity="0.3"/>
+    <text x="156" y="12" class="number">72</text>
+    <text x="175" y="38" class="symbol" text-anchor="middle">Hf</text>
+    <rect x="200" y="0" width="50" height="55" rx="4" fill="#267aba" opacity="0.15" stroke="#267aba" stroke-width="0.5" stroke-opacity="0.3"/>
+    <text x="206" y="12" class="number">73</text>
+    <text x="225" y="38" class="symbol" text-anchor="middle">Ta</text>
+    <rect x="250" y="0" width="50" height="55" rx="4" fill="#267aba" opacity="0.15" stroke="#267aba" stroke-width="0.5" stroke-opacity="0.3"/>
+    <text x="256" y="12" class="number">74</text>
+    <text x="275" y="38" class="symbol" text-anchor="middle">W</text>
+    <rect x="300" y="0" width="50" height="55" rx="4" fill="#267aba" opacity="0.15" stroke="#267aba" stroke-width="0.5" stroke-opacity="0.3"/>
+    <text x="306" y="12" class="number">75</text>
+    <text x="325" y="38" class="symbol" text-anchor="middle">Re</text>
+    <rect x="350" y="0" width="50" height="55" rx="4" fill="#267aba" opacity="0.15" stroke="#267aba" stroke-width="0.5" stroke-opacity="0.3"/>
+    <text x="356" y="12" class="number">76</text>
+    <text x="375" y="38" class="symbol" text-anchor="middle">Os</text>
+    <rect x="400" y="0" width="50" height="55" rx="4" fill="#267aba" opacity="0.15" stroke="#267aba" stroke-width="0.5" stroke-opacity="0.3"/>
+    <text x="406" y="12" class="number">77</text>
+    <text x="425" y="38" class="symbol" text-anchor="middle">Ir</text>
+    <rect x="450" y="0" width="50" height="55" rx="4" fill="#267aba" opacity="0.15" stroke="#267aba" stroke-width="0.5" stroke-opacity="0.3"/>
+    <text x="456" y="12" class="number">78</text>
+    <text x="475" y="38" class="symbol" text-anchor="middle">Pt</text>
+    <rect x="500" y="0" width="50" height="55" rx="4" fill="#267aba" opacity="0.15" stroke="#267aba" stroke-width="0.5" stroke-opacity="0.3"/>
+    <text x="506" y="12" class="number">79</text>
+    <text x="525" y="38" class="symbol" text-anchor="middle">Au</text>
+    <rect x="550" y="0" width="50" height="55" rx="4" fill="#267aba" opacity="0.15" stroke="#267aba" stroke-width="0.5" stroke-opacity="0.3"/>
+    <text x="556" y="12" class="number">80</text>
+    <text x="575" y="38" class="symbol" text-anchor="middle">Hg</text>
+    <!-- Tl -->
+    <rect x="600" y="0" width="50" height="55" rx="4" fill="#8a6996" opacity="0.15" stroke="#8a6996" stroke-width="0.5" stroke-opacity="0.3"/>
+    <text x="606" y="12" class="number">81</text>
+    <text x="625" y="38" class="symbol" text-anchor="middle">Tl</text>
+    <!-- Pb -->
+    <rect x="650" y="0" width="50" height="55" rx="4" fill="#8a6996" opacity="0.15" stroke="#8a6996" stroke-width="0.5" stroke-opacity="0.3"/>
+    <text x="656" y="12" class="number">82</text>
+    <text x="675" y="38" class="symbol" text-anchor="middle">Pb</text>
+    <!-- Bi -->
+    <rect x="700" y="0" width="50" height="55" rx="4" fill="#8a6996" opacity="0.15" stroke="#8a6996" stroke-width="0.5" stroke-opacity="0.3"/>
+    <text x="706" y="12" class="number">83</text>
+    <text x="725" y="38" class="symbol" text-anchor="middle">Bi</text>
+    <!-- Po -->
+    <rect x="750" y="0" width="50" height="55" rx="4" fill="#8a6996" opacity="0.15" stroke="#8a6996" stroke-width="0.5" stroke-opacity="0.3"/>
+    <text x="756" y="12" class="number">84</text>
+    <text x="775" y="38" class="symbol" text-anchor="middle">Po</text>
+    <!-- At -->
+    <rect x="800" y="0" width="50" height="55" rx="4" fill="#643c20" opacity="0.15" stroke="#643c20" stroke-width="0.5" stroke-opacity="0.3"/>
+    <text x="806" y="12" class="number">85</text>
+    <text x="825" y="38" class="symbol" text-anchor="middle">At</text>
+    <!-- Rn -->
+    <rect x="850" y="0" width="50" height="55" rx="4" fill="#424141" opacity="0.15" stroke="#424141" stroke-width="0.5" stroke-opacity="0.3"/>
+    <text x="856" y="12" class="number">86</text>
+    <text x="875" y="38" class="symbol" text-anchor="middle">Rn</text>
+  </g>
+  <!-- Row 7 (representative) -->
+  <g transform="translate(10,400)">
+    <!-- Fr -->
+    <rect x="0" y="0" width="50" height="55" rx="4" fill="#9d162e" opacity="0.15" stroke="#9d162e" stroke-width="0.5" stroke-opacity="0.3"/>
+    <text x="6" y="12" class="number">87</text>
+    <text x="25" y="38" class="symbol" text-anchor="middle">Fr</text>
+    <!-- Ra -->
+    <rect x="50" y="0" width="50" height="55" rx="4" fill="#ffa00f" opacity="0.15" stroke="#ffa00f" stroke-width="0.5" stroke-opacity="0.3"/>
+    <text x="56" y="12" class="number">88</text>
+    <text x="75" y="38" class="symbol" text-anchor="middle">Ra</text>
+    <!-- Ac** marker -->
+    <rect x="100" y="0" width="50" height="55" rx="4" fill="#267aba" opacity="0.08" stroke="#267aba" stroke-width="0.5" stroke-opacity="0.2"/>
+    <text x="106" y="12" class="number">89-103</text>
+    <text x="125" y="38" class="symbol" text-anchor="middle" font-size="12" opacity="0.6">**</text>
+    <!-- Rf-Cn -->
+    <rect x="150" y="0" width="50" height="55" rx="4" fill="#267aba" opacity="0.15" stroke="#267aba" stroke-width="0.5" stroke-opacity="0.3"/>
+    <text x="156" y="12" class="number">104</text>
+    <text x="175" y="38" class="symbol" text-anchor="middle">Rf</text>
+    <rect x="200" y="0" width="50" height="55" rx="4" fill="#267aba" opacity="0.15" stroke="#267aba" stroke-width="0.5" stroke-opacity="0.3"/>
+    <text x="206" y="12" class="number">105</text>
+    <text x="225" y="38" class="symbol" text-anchor="middle">Db</text>
+    <rect x="250" y="0" width="50" height="55" rx="4" fill="#267aba" opacity="0.15" stroke="#267aba" stroke-width="0.5" stroke-opacity="0.3"/>
+    <text x="256" y="12" class="number">106</text>
+    <text x="275" y="38" class="symbol" text-anchor="middle">Sg</text>
+    <rect x="300" y="0" width="50" height="55" rx="4" fill="#267aba" opacity="0.15" stroke="#267aba" stroke-width="0.5" stroke-opacity="0.3"/>
+    <text x="306" y="12" class="number">107</text>
+    <text x="325" y="38" class="symbol" text-anchor="middle">Bh</text>
+    <rect x="350" y="0" width="50" height="55" rx="4" fill="#267aba" opacity="0.15" stroke="#267aba" stroke-width="0.5" stroke-opacity="0.3"/>
+    <text x="356" y="12" class="number">108</text>
+    <text x="375" y="38" class="symbol" text-anchor="middle">Hs</text>
+    <rect x="400" y="0" width="50" height="55" rx="4" fill="#267aba" opacity="0.15" stroke="#267aba" stroke-width="0.5" stroke-opacity="0.3"/>
+    <text x="406" y="12" class="number">109</text>
+    <text x="425" y="38" class="symbol" text-anchor="middle">Mt</text>
+    <rect x="450" y="0" width="50" height="55" rx="4" fill="#267aba" opacity="0.15" stroke="#267aba" stroke-width="0.5" stroke-opacity="0.3"/>
+    <text x="456" y="12" class="number">110</text>
+    <text x="475" y="38" class="symbol" text-anchor="middle">Ds</text>
+    <rect x="500" y="0" width="50" height="55" rx="4" fill="#267aba" opacity="0.15" stroke="#267aba" stroke-width="0.5" stroke-opacity="0.3"/>
+    <text x="506" y="12" class="number">111</text>
+    <text x="525" y="38" class="symbol" text-anchor="middle">Rg</text>
+    <rect x="550" y="0" width="50" height="55" rx="4" fill="#267aba" opacity="0.15" stroke="#267aba" stroke-width="0.5" stroke-opacity="0.3"/>
+    <text x="556" y="12" class="number">112</text>
+    <text x="575" y="38" class="symbol" text-anchor="middle">Cn</text>
+    <!-- Nh-Og -->
+    <rect x="600" y="0" width="50" height="55" rx="4" fill="#8a6996" opacity="0.15" stroke="#8a6996" stroke-width="0.5" stroke-opacity="0.3"/>
+    <text x="606" y="12" class="number">113</text>
+    <text x="625" y="38" class="symbol" text-anchor="middle">Nh</text>
+    <rect x="650" y="0" width="50" height="55" rx="4" fill="#8a6996" opacity="0.15" stroke="#8a6996" stroke-width="0.5" stroke-opacity="0.3"/>
+    <text x="656" y="12" class="number">114</text>
+    <text x="675" y="38" class="symbol" text-anchor="middle">Fl</text>
+    <rect x="700" y="0" width="50" height="55" rx="4" fill="#8a6996" opacity="0.15" stroke="#8a6996" stroke-width="0.5" stroke-opacity="0.3"/>
+    <text x="706" y="12" class="number">115</text>
+    <text x="725" y="38" class="symbol" text-anchor="middle">Mc</text>
+    <rect x="750" y="0" width="50" height="55" rx="4" fill="#8a6996" opacity="0.15" stroke="#8a6996" stroke-width="0.5" stroke-opacity="0.3"/>
+    <text x="756" y="12" class="number">116</text>
+    <text x="775" y="38" class="symbol" text-anchor="middle">Lv</text>
+    <rect x="800" y="0" width="50" height="55" rx="4" fill="#00693e" opacity="0.15" stroke="#00693e" stroke-width="0.5" stroke-opacity="0.3"/>
+    <text x="806" y="12" class="number">117</text>
+    <text x="825" y="38" class="symbol" text-anchor="middle">Ts</text>
+    <rect x="850" y="0" width="50" height="55" rx="4" fill="#424141" opacity="0.15" stroke="#424141" stroke-width="0.5" stroke-opacity="0.3"/>
+    <text x="856" y="12" class="number">118</text>
+    <text x="875" y="38" class="symbol" text-anchor="middle">Og</text>
+  </g>
+  <!-- Lanthanides row -->
+  <g transform="translate(10,490)">
+    <text x="95" y="38" class="symbol" text-anchor="end" font-size="11" opacity="0.5">*</text>
+    <!-- La -->
+    <rect x="100" y="0" width="50" height="55" rx="4" fill="#267aba" opacity="0.08" stroke="#267aba" stroke-width="0.5" stroke-opacity="0.2"/>
+    <text x="106" y="12" class="number">57</text>
+    <text x="125" y="38" class="symbol" text-anchor="middle">La</text>
+    <!-- Ce -->
+    <rect x="150" y="0" width="50" height="55" rx="4" fill="#267aba" opacity="0.08" stroke="#267aba" stroke-width="0.5" stroke-opacity="0.2"/>
+    <text x="156" y="12" class="number">58</text>
+    <text x="175" y="38" class="symbol" text-anchor="middle">Ce</text>
+    <!-- Pr -->
+    <rect x="200" y="0" width="50" height="55" rx="4" fill="#267aba" opacity="0.08" stroke="#267aba" stroke-width="0.5" stroke-opacity="0.2"/>
+    <text x="206" y="12" class="number">59</text>
+    <text x="225" y="38" class="symbol" text-anchor="middle">Pr</text>
+    <!-- Nd -->
+    <rect x="250" y="0" width="50" height="55" rx="4" fill="#267aba" opacity="0.08" stroke="#267aba" stroke-width="0.5" stroke-opacity="0.2"/>
+    <text x="256" y="12" class="number">60</text>
+    <text x="275" y="38" class="symbol" text-anchor="middle">Nd</text>
+    <!-- Pm -->
+    <rect x="300" y="0" width="50" height="55" rx="4" fill="#267aba" opacity="0.08" stroke="#267aba" stroke-width="0.5" stroke-opacity="0.2"/>
+    <text x="306" y="12" class="number">61</text>
+    <text x="325" y="38" class="symbol" text-anchor="middle">Pm</text>
+    <!-- Sm -->
+    <rect x="350" y="0" width="50" height="55" rx="4" fill="#267aba" opacity="0.08" stroke="#267aba" stroke-width="0.5" stroke-opacity="0.2"/>
+    <text x="356" y="12" class="number">62</text>
+    <text x="375" y="38" class="symbol" text-anchor="middle">Sm</text>
+    <!-- Eu -->
+    <rect x="400" y="0" width="50" height="55" rx="4" fill="#267aba" opacity="0.08" stroke="#267aba" stroke-width="0.5" stroke-opacity="0.2"/>
+    <text x="406" y="12" class="number">63</text>
+    <text x="425" y="38" class="symbol" text-anchor="middle">Eu</text>
+    <!-- Gd -->
+    <rect x="450" y="0" width="50" height="55" rx="4" fill="#267aba" opacity="0.08" stroke="#267aba" stroke-width="0.5" stroke-opacity="0.2"/>
+    <text x="456" y="12" class="number">64</text>
+    <text x="475" y="38" class="symbol" text-anchor="middle">Gd</text>
+    <!-- Tb -->
+    <rect x="500" y="0" width="50" height="55" rx="4" fill="#267aba" opacity="0.08" stroke="#267aba" stroke-width="0.5" stroke-opacity="0.2"/>
+    <text x="506" y="12" class="number">65</text>
+    <text x="525" y="38" class="symbol" text-anchor="middle">Tb</text>
+    <!-- Dy -->
+    <rect x="550" y="0" width="50" height="55" rx="4" fill="#267aba" opacity="0.08" stroke="#267aba" stroke-width="0.5" stroke-opacity="0.2"/>
+    <text x="556" y="12" class="number">66</text>
+    <text x="575" y="38" class="symbol" text-anchor="middle">Dy</text>
+    <!-- Ho -->
+    <rect x="600" y="0" width="50" height="55" rx="4" fill="#267aba" opacity="0.08" stroke="#267aba" stroke-width="0.5" stroke-opacity="0.2"/>
+    <text x="606" y="12" class="number">67</text>
+    <text x="625" y="38" class="symbol" text-anchor="middle">Ho</text>
+    <!-- Er -->
+    <rect x="650" y="0" width="50" height="55" rx="4" fill="#267aba" opacity="0.08" stroke="#267aba" stroke-width="0.5" stroke-opacity="0.2"/>
+    <text x="656" y="12" class="number">68</text>
+    <text x="675" y="38" class="symbol" text-anchor="middle">Er</text>
+    <!-- Tm -->
+    <rect x="700" y="0" width="50" height="55" rx="4" fill="#267aba" opacity="0.08" stroke="#267aba" stroke-width="0.5" stroke-opacity="0.2"/>
+    <text x="706" y="12" class="number">69</text>
+    <text x="725" y="38" class="symbol" text-anchor="middle">Tm</text>
+    <!-- Yb -->
+    <rect x="750" y="0" width="50" height="55" rx="4" fill="#267aba" opacity="0.08" stroke="#267aba" stroke-width="0.5" stroke-opacity="0.2"/>
+    <text x="756" y="12" class="number">70</text>
+    <text x="775" y="38" class="symbol" text-anchor="middle">Yb</text>
+    <!-- Lu -->
+    <rect x="800" y="0" width="50" height="55" rx="4" fill="#267aba" opacity="0.08" stroke="#267aba" stroke-width="0.5" stroke-opacity="0.2"/>
+    <text x="806" y="12" class="number">71</text>
+    <text x="825" y="38" class="symbol" text-anchor="middle">Lu</text>
+  </g>
+  <!-- Actinides row -->
+  <g transform="translate(10,555)">
+    <text x="95" y="38" class="symbol" text-anchor="end" font-size="11" opacity="0.5">**</text>
+    <!-- Ac -->
+    <rect x="100" y="0" width="50" height="55" rx="4" fill="#9d162e" opacity="0.08" stroke="#9d162e" stroke-width="0.5" stroke-opacity="0.2"/>
+    <text x="106" y="12" class="number">89</text>
+    <text x="125" y="38" class="symbol" text-anchor="middle">Ac</text>
+    <!-- Th -->
+    <rect x="150" y="0" width="50" height="55" rx="4" fill="#9d162e" opacity="0.08" stroke="#9d162e" stroke-width="0.5" stroke-opacity="0.2"/>
+    <text x="156" y="12" class="number">90</text>
+    <text x="175" y="38" class="symbol" text-anchor="middle">Th</text>
+    <!-- Pa -->
+    <rect x="200" y="0" width="50" height="55" rx="4" fill="#9d162e" opacity="0.08" stroke="#9d162e" stroke-width="0.5" stroke-opacity="0.2"/>
+    <text x="206" y="12" class="number">91</text>
+    <text x="225" y="38" class="symbol" text-anchor="middle">Pa</text>
+    <!-- U -->
+    <rect x="250" y="0" width="50" height="55" rx="4" fill="#9d162e" opacity="0.08" stroke="#9d162e" stroke-width="0.5" stroke-opacity="0.2"/>
+    <text x="256" y="12" class="number">92</text>
+    <text x="275" y="38" class="symbol" text-anchor="middle">U</text>
+    <!-- Np -->
+    <rect x="300" y="0" width="50" height="55" rx="4" fill="#9d162e" opacity="0.08" stroke="#9d162e" stroke-width="0.5" stroke-opacity="0.2"/>
+    <text x="306" y="12" class="number">93</text>
+    <text x="325" y="38" class="symbol" text-anchor="middle">Np</text>
+    <!-- Pu -->
+    <rect x="350" y="0" width="50" height="55" rx="4" fill="#9d162e" opacity="0.08" stroke="#9d162e" stroke-width="0.5" stroke-opacity="0.2"/>
+    <text x="356" y="12" class="number">94</text>
+    <text x="375" y="38" class="symbol" text-anchor="middle">Pu</text>
+    <!-- Am -->
+    <rect x="400" y="0" width="50" height="55" rx="4" fill="#9d162e" opacity="0.08" stroke="#9d162e" stroke-width="0.5" stroke-opacity="0.2"/>
+    <text x="406" y="12" class="number">95</text>
+    <text x="425" y="38" class="symbol" text-anchor="middle">Am</text>
+    <!-- Cm -->
+    <rect x="450" y="0" width="50" height="55" rx="4" fill="#9d162e" opacity="0.08" stroke="#9d162e" stroke-width="0.5" stroke-opacity="0.2"/>
+    <text x="456" y="12" class="number">96</text>
+    <text x="475" y="38" class="symbol" text-anchor="middle">Cm</text>
+    <!-- Bk -->
+    <rect x="500" y="0" width="50" height="55" rx="4" fill="#9d162e" opacity="0.08" stroke="#9d162e" stroke-width="0.5" stroke-opacity="0.2"/>
+    <text x="506" y="12" class="number">97</text>
+    <text x="525" y="38" class="symbol" text-anchor="middle">Bk</text>
+    <!-- Cf -->
+    <rect x="550" y="0" width="50" height="55" rx="4" fill="#9d162e" opacity="0.08" stroke="#9d162e" stroke-width="0.5" stroke-opacity="0.2"/>
+    <text x="556" y="12" class="number">98</text>
+    <text x="575" y="38" class="symbol" text-anchor="middle">Cf</text>
+    <!-- Es -->
+    <rect x="600" y="0" width="50" height="55" rx="4" fill="#9d162e" opacity="0.08" stroke="#9d162e" stroke-width="0.5" stroke-opacity="0.2"/>
+    <text x="606" y="12" class="number">99</text>
+    <text x="625" y="38" class="symbol" text-anchor="middle">Es</text>
+    <!-- Fm -->
+    <rect x="650" y="0" width="50" height="55" rx="4" fill="#9d162e" opacity="0.08" stroke="#9d162e" stroke-width="0.5" stroke-opacity="0.2"/>
+    <text x="656" y="12" class="number">100</text>
+    <text x="675" y="38" class="symbol" text-anchor="middle">Fm</text>
+    <!-- Md -->
+    <rect x="700" y="0" width="50" height="55" rx="4" fill="#9d162e" opacity="0.08" stroke="#9d162e" stroke-width="0.5" stroke-opacity="0.2"/>
+    <text x="706" y="12" class="number">101</text>
+    <text x="725" y="38" class="symbol" text-anchor="middle">Md</text>
+    <!-- No -->
+    <rect x="750" y="0" width="50" height="55" rx="4" fill="#9d162e" opacity="0.08" stroke="#9d162e" stroke-width="0.5" stroke-opacity="0.2"/>
+    <text x="756" y="12" class="number">102</text>
+    <text x="775" y="38" class="symbol" text-anchor="middle">No</text>
+    <!-- Lr -->
+    <rect x="800" y="0" width="50" height="55" rx="4" fill="#9d162e" opacity="0.08" stroke="#9d162e" stroke-width="0.5" stroke-opacity="0.2"/>
+    <text x="806" y="12" class="number">103</text>
+    <text x="825" y="38" class="symbol" text-anchor="middle">Lr</text>
+  </g>
+</svg>
