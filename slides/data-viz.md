@@ -36,15 +36,13 @@ A good visualization can reveal what no table of numbers ever could. A bad visua
 ---
 <!-- _class: scale-90 -->
 
-## Which representation is clearest?
+# Which representation is clearest?
 
-![height:500px](figs/data_representations.svg)
-
-The same data shown three ways. The **heatmap** reveals a face that is invisible in the raw numbers.
+![height:400px](figs/data_representations.svg)
 
 ---
 
-## Anscombe's quartet: why visualize?
+## Anscombe's quartet
 
 <div class="warning-box" data-title="Statistics can deceive">
 
@@ -52,26 +50,23 @@ These four datasets have **identical** summary statistics (same mean, variance, 
 
 </div>
 
-```chart
-type: scatter
-labels: 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14
-datasets:
-  - label: Dataset I
-    data: 4.26, 5.68, 7.24, 4.82, 6.95, 8.81, 8.04, 8.33, 7.58, 6.89, 5.73
-  - label: Dataset II
-    data: 3.10, 4.74, 6.13, 7.26, 8.14, 8.77, 9.14, 9.26, 9.13, 8.74, 8.10
-palette: cdl
-caption: Same statistics, different stories — always visualize your data!
-height: 280px
-```
+![width:1150px](figs/anscombes_quartet.svg)
 
 ---
 
-<div class="important-box" data-title="The most important question in data visualization">
+## The most important question in data visualization
 
-## What message do you want your audience to take away?
+<div class="important-box" data-title="Always ask yourself:">
+
+**What message do you want your audience to take away?**
 
 Every visualization decision — color, layout, chart type, annotation — should serve that message. **Start with the message, then choose the visualization.**
+
+</div>
+
+<div class="tip-box" data-title="A common mistake">
+
+Many people pick a chart type first, then try to fit their data into it. Instead, decide what you want to *say*, then find the visualization that says it most clearly.
 
 </div>
 
@@ -93,15 +88,11 @@ Every visualization decision — color, layout, chart type, annotation — shoul
 
 ---
 
-## Grammar of graphics
+<!-- _class: scale-90 -->
 
-<div class="definition-box" data-title="Figures are built from separable layers">
+## Grammar of graphics: figures are built from layers
 
-Every visualization can be decomposed into layers that build on each other, from data to presentation.
-
-</div>
-
-![height:350px](figs/grammar_of_graphics.svg)
+![height:380px](figs/grammar_of_graphics.svg)
 
 *Based on Wickham's [A Layered Grammar of Graphics](https://www.dropbox.com/s/xhpjth2f4aamn5u/layered-grammar.pdf) and Wilkinson's [The Grammar of Graphics](https://www.dropbox.com/s/4qwd16psogqdgi6/Wilk10.pdf)*
 
@@ -127,15 +118,8 @@ Every visualization can be decomposed into layers that build on each other, from
 
 ---
 
-## Our approach
-
-<div class="note-box" data-title="How we'll learn visualization">
-
-We focus on understanding **what** these tools do and **when** to use them — not memorizing syntax. AI handles the syntax; you handle the thinking.
-
-In this lecture we'll tour the major chart types. For each one, think about: **what kind of data does this show, and what story does it tell?**
-
-</div>
+# Chart gallery
+### For each chart type, ask: *what kind of data does this show, and what story does it tell?*
 
 ---
 
@@ -179,7 +163,7 @@ height: 340px
 
 ---
 
-## Stacked bar chart: showing composition within categories
+## Multi-series bar chart: showing composition within categories
 
 ```chart
 type: bar
@@ -273,22 +257,20 @@ A violin showing exam scores might reveal two peaks (bimodal) — students who s
 
 ## Scatter plot: revealing relationships between two variables
 
-```chart
-type: scatter
-labels: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
-datasets:
-  - label: Study hours vs. exam score
-    data: 45, 55, 50, 65, 60, 72, 68, 78, 82, 90
-palette: cdl
-caption: Each point is one student
-xlabel: Hours studied
-ylabel: Exam score
-height: 340px
-```
+<div class="definition-box" data-title="Two continuous variables">
 
-<div class="note-box" data-title="Correlation ≠ causation">
+A scatter plot shows the relationship between two continuous variables. Each **point** represents one observation.
 
-Scatter plots show **associations**. A trend line shows the direction and strength of a relationship, but does not prove one variable *causes* the other.
+- **Positive correlation**: points trend upward (more X → more Y)
+- **Negative correlation**: points trend downward (more X → less Y)
+- **No correlation**: points are scattered randomly
+- Add a **trend line** to show the overall direction
+
+</div>
+
+<div class="warning-box" data-title="Correlation ≠ causation">
+
+A trend in a scatter plot shows an **association**, not proof that one variable *causes* the other. Always consider confounding variables!
 
 </div>
 
@@ -312,25 +294,19 @@ The animated [Gapminder](https://www.gapminder.org/) visualization (coming up!) 
 
 ## Heatmap: showing magnitude in a matrix
 
-```chart
-type: bar
-labels: Mon, Tue, Wed, Thu, Fri
-datasets:
-  - label: Morning
-    data: 8, 12, 10, 14, 6
-  - label: Afternoon
-    data: 15, 18, 20, 16, 10
-  - label: Evening
-    data: 22, 25, 28, 20, 30
-palette: cdl
-caption: Library visits by day and time (imagine this as a color grid!)
-ylabel: Visits
-height: 300px
-```
+<div class="definition-box" data-title="A table where numbers become colors">
 
-<div class="note-box" data-title="True heatmaps">
+A heatmap displays values in a **grid** using **color intensity** instead of numbers. Darker or more saturated colors represent higher (or lower) values.
 
-A real heatmap uses **color intensity** instead of bar height to show values in a grid. Great for correlation matrices, gene expression data, or any matrix of values. Think of it as a table where numbers are replaced by colors.
+- **Rows and columns** represent two categorical or ordinal variables
+- **Color** encodes the magnitude of each cell
+- Great for: correlation matrices, gene expression, time-of-day patterns, confusion matrices
+
+</div>
+
+<div class="example-box" data-title="You've already seen one!">
+
+The "which representation is clearest?" slide earlier was a heatmap — pixel brightness encoded the face data. The heatmap revealed a pattern that raw numbers could not!
 
 </div>
 
