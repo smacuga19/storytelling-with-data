@@ -95,7 +95,12 @@ Your audience came for a **story**, not a statistics lecture. Data should be the
 # Example: Hans Rosling — 200 countries, 200 years, 4 minutes
 
 <div style="text-align: center;">
-<a href="https://www.youtube.com/watch?v=jbkSRLYSojo" target="_blank"><img src="https://img.youtube.com/vi/jbkSRLYSojo/maxresdefault.jpg" style="width: 85%; max-width: 900px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.2);"></a>
+<div class="yt-player" data-video="jbkSRLYSojo" style="display: inline-block; position: relative; width: 85%; max-width: 900px; cursor: pointer;">
+<img src="https://img.youtube.com/vi/jbkSRLYSojo/maxresdefault.jpg" style="width: 100%; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.2);">
+<div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 80px; height: 56px; background: rgba(0,0,0,0.7); border-radius: 14px; display: flex; align-items: center; justify-content: center;">
+<div style="width: 0; height: 0; border-left: 24px solid white; border-top: 14px solid transparent; border-bottom: 14px solid transparent; margin-left: 4px;"></div>
+</div>
+</div>
 </div>
 
 ---
@@ -103,7 +108,12 @@ Your audience came for a **story**, not a statistics lecture. Data should be the
 # Example: Powers of Ten (1977)
 
 <div style="text-align: center;">
-<a href="https://www.youtube.com/watch?v=0fKBhvDjuy0" target="_blank"><img src="https://img.youtube.com/vi/0fKBhvDjuy0/maxresdefault.jpg" style="width: 85%; max-width: 900px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.2);"></a>
+<div class="yt-player" data-video="0fKBhvDjuy0" style="display: inline-block; position: relative; width: 85%; max-width: 900px; cursor: pointer;">
+<img src="https://img.youtube.com/vi/0fKBhvDjuy0/maxresdefault.jpg" style="width: 100%; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.2);">
+<div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 80px; height: 56px; background: rgba(0,0,0,0.7); border-radius: 14px; display: flex; align-items: center; justify-content: center;">
+<div style="width: 0; height: 0; border-left: 24px solid white; border-top: 14px solid transparent; border-bottom: 14px solid transparent; margin-left: 4px;"></div>
+</div>
+</div>
 </div>
 
 ---
@@ -160,7 +170,11 @@ Half-baked ideas are encouraged. You can pitch multiple ideas and get help choos
 
 <div class="note-box" data-title="Inspiration">
 
-[FiveThirtyEight](https://fivethirtyeight.com/) · [r/dataisbeautiful](https://www.reddit.com/r/dataisbeautiful/) · [Towards Data Science](https://towardsdatascience.com/) · [Our World in Data](https://ourworldindata.org/) · [Minute Physics](https://www.youtube.com/user/minutephysics)
+- [FiveThirtyEight](https://fivethirtyeight.com/)
+- [r/dataisbeautiful](https://www.reddit.com/r/dataisbeautiful/)
+- [Towards Data Science](https://towardsdatascience.com/)
+- [Our World in Data](https://ourworldindata.org/)
+- [Minute Physics](https://www.youtube.com/user/minutephysics)
 
 </div>
 
@@ -188,3 +202,41 @@ Half-baked ideas are encouraged. You can pitch multiple ideas and get help choos
 - **Monday:** Review Assignment 2 stories + peer feedback
 
 </div>
+
+<script>
+// YouTube embed player: click thumbnail → overlay iframe on top of Marp SVG
+document.addEventListener('click', function(e) {
+  var player = e.target.closest('.yt-player');
+  if (!player) return;
+  e.preventDefault();
+  e.stopPropagation();
+  var videoId = player.getAttribute('data-video');
+  if (!videoId) return;
+  // Get the bounding rect of the thumbnail relative to the viewport
+  var rect = player.getBoundingClientRect();
+  // Create an overlay div positioned absolutely over the thumbnail
+  var overlay = document.createElement('div');
+  overlay.style.cssText = 'position:fixed;z-index:99999;background:black;border-radius:12px;overflow:hidden;box-shadow:0 8px 32px rgba(0,0,0,0.4);';
+  overlay.style.left = rect.left + 'px';
+  overlay.style.top = rect.top + 'px';
+  overlay.style.width = rect.width + 'px';
+  overlay.style.height = rect.height + 'px';
+  // Create iframe
+  var iframe = document.createElement('iframe');
+  iframe.src = 'https://www.youtube.com/embed/' + videoId + '?autoplay=1&rel=0';
+  iframe.style.cssText = 'width:100%;height:100%;border:none;border-radius:12px;';
+  iframe.allow = 'accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture';
+  iframe.allowFullscreen = true;
+  overlay.appendChild(iframe);
+  // Click overlay background to close
+  overlay.addEventListener('click', function(ev) {
+    if (ev.target === overlay) { overlay.remove(); }
+  });
+  // Escape key to close
+  var escHandler = function(ev) {
+    if (ev.key === 'Escape') { overlay.remove(); document.removeEventListener('keydown', escHandler); }
+  };
+  document.addEventListener('keydown', escHandler);
+  document.body.appendChild(overlay);
+}, true);
+</script>
