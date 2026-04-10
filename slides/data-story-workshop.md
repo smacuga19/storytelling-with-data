@@ -6,7 +6,7 @@ transition: fade 0.25s
 author: Contextual Dynamics Lab
 ---
 
-# From stories to data stories
+# From stories to *data* stories
 ### PSYC 81.09: Storytelling with Data
 
 Jeremy R. Manning
@@ -21,7 +21,7 @@ Spring 2026
 
 1. **The bridge from Assignment 1** — you already know how to tell a great story
 2. **How data can amplify a story** — and how it can kill one
-3. **A masterclass in 4 minutes** — Hans Rosling shows us how it's done
+3. **Examples** — Hans Rosling's Gapminder and the classic "Powers of Ten"
 4. **Workshop** — brainstorm your data story idea
 5. **Assignment 2 release** — data story remix
 
@@ -87,7 +87,7 @@ Your audience came for a **story**, not a statistics lecture. Data should be the
 
 - **Lead with a question**, not a dataset — "What if I told you that..." is always more engaging than "I downloaded this CSV..."
 - **One chart, one point.** If a visualization doesn't directly support your narrative, cut it.
-- **Narrate the data.** Don't just show a graph — walk the audience through what they should see.
+- **Narrate the data.** Don't just show a graph — walk the audience through what they should see. Keep their cognitive load low.
 - **Use surprise.** Find the moments in the data where something unexpected happens, and build your story around *those*.
 - **Make it personal.** Connect the data to something your audience has experienced.
 - **Less is more.** Three well-chosen data points beat twenty that blur together.
@@ -100,9 +100,9 @@ Your audience came for a **story**, not a statistics lecture. Data should be the
 
 <div style="text-align: center;">
 <div class="yt-player" data-video="jbkSRLYSojo" style="display: inline-block; position: relative; cursor: pointer;">
-<img src="https://img.youtube.com/vi/jbkSRLYSojo/maxresdefault.jpg" style="width: 1100px; border-radius: 16px;">
-<div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 120px; height: 84px; background: rgba(0,0,0,0.75); border-radius: 20px; display: flex; align-items: center; justify-content: center;">
-<div style="width: 0; height: 0; border-left: 36px solid white; border-top: 21px solid transparent; border-bottom: 21px solid transparent; margin-left: 6px;"></div>
+<img src="https://img.youtube.com/vi/jbkSRLYSojo/hqdefault.jpg" style="width: 800px; border-radius: 12px;">
+<div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 100px; height: 70px; background: rgba(0,0,0,0.75); border-radius: 18px; display: flex; align-items: center; justify-content: center;">
+<div style="width: 0; height: 0; border-left: 30px solid white; border-top: 18px solid transparent; border-bottom: 18px solid transparent; margin-left: 5px;"></div>
 </div>
 </div>
 </div>
@@ -113,9 +113,9 @@ Your audience came for a **story**, not a statistics lecture. Data should be the
 
 <div style="text-align: center;">
 <div class="yt-player" data-video="0fKBhvDjuy0" style="display: inline-block; position: relative; cursor: pointer;">
-<img src="https://img.youtube.com/vi/0fKBhvDjuy0/maxresdefault.jpg" style="width: 1100px; border-radius: 16px;">
-<div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 120px; height: 84px; background: rgba(0,0,0,0.75); border-radius: 20px; display: flex; align-items: center; justify-content: center;">
-<div style="width: 0; height: 0; border-left: 36px solid white; border-top: 21px solid transparent; border-bottom: 21px solid transparent; margin-left: 6px;"></div>
+<img src="https://img.youtube.com/vi/0fKBhvDjuy0/hqdefault.jpg" style="width: 800px; border-radius: 12px;">
+<div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 100px; height: 70px; background: rgba(0,0,0,0.75); border-radius: 18px; display: flex; align-items: center; justify-content: center;">
+<div style="width: 0; height: 0; border-left: 30px solid white; border-top: 18px solid transparent; border-bottom: 18px solid transparent; margin-left: 5px;"></div>
 </div>
 </div>
 </div>
@@ -207,6 +207,13 @@ Half-baked ideas are encouraged. You can pitch multiple ideas and get help choos
 
 </div>
 
+---
+<!--
+_class: no-content
+_paginate: false
+-->
+<style scoped>section { display: none !important; }</style>
+
 <script>
 // YouTube player overlay for Marp slides.
 // Clicks on .yt-player thumbnails open a YouTube iframe overlay.
@@ -256,13 +263,25 @@ Half-baked ideas are encouraged. You can pitch multiple ideas and get help choos
     if (e.key === 'Escape') cleanup();
   });
 
-  // Clean up on ANY slide navigation — poll the hash every 200ms
+  // Clean up on ANY slide navigation (keyboard, click, scroll, touch).
+  // Marp changes the hash AND mutates DOM attributes on slide transitions.
+  // Watch both to catch all navigation methods.
   var lastHash = location.hash;
   setInterval(function() {
     if (location.hash !== lastHash) {
       lastHash = location.hash;
       cleanup();
     }
-  }, 200);
+  }, 150);
+
+  // MutationObserver catches scroll/touch navigation that may not change hash
+  var observer = new MutationObserver(function() {
+    if (iframe) cleanup();
+  });
+  // Observe the page counter element (Marp updates it on every slide change)
+  window.addEventListener('load', function() {
+    var osc = document.querySelector('[data-bespoke-marp-osc="page"]');
+    if (osc) observer.observe(osc, { childList: true, characterData: true, subtree: true });
+  });
 })();
 </script>
