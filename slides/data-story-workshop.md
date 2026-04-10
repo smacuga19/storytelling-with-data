@@ -9,6 +9,10 @@ author: Contextual Dynamics Lab
 # From stories to data stories
 ### PSYC 81.09: Storytelling with Data
 
+Jeremy R. Manning
+Dartmouth College
+Spring 2026
+
 ---
 
 # Today's agenda
@@ -95,10 +99,10 @@ Your audience came for a **story**, not a statistics lecture. Data should be the
 # Example: Hans Rosling — 200 countries, 200 years, 4 minutes
 
 <div style="text-align: center;">
-<div class="yt-player" data-video="jbkSRLYSojo" style="display: inline-block; position: relative; width: 85%; max-width: 900px; cursor: pointer;">
-<img src="https://img.youtube.com/vi/jbkSRLYSojo/maxresdefault.jpg" style="width: 100%; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.2);">
-<div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 80px; height: 56px; background: rgba(0,0,0,0.7); border-radius: 14px; display: flex; align-items: center; justify-content: center;">
-<div style="width: 0; height: 0; border-left: 24px solid white; border-top: 14px solid transparent; border-bottom: 14px solid transparent; margin-left: 4px;"></div>
+<div class="yt-player" data-video="jbkSRLYSojo" style="display: inline-block; position: relative; cursor: pointer;">
+<img src="https://img.youtube.com/vi/jbkSRLYSojo/maxresdefault.jpg" style="width: 1100px; border-radius: 16px;">
+<div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 120px; height: 84px; background: rgba(0,0,0,0.75); border-radius: 20px; display: flex; align-items: center; justify-content: center;">
+<div style="width: 0; height: 0; border-left: 36px solid white; border-top: 21px solid transparent; border-bottom: 21px solid transparent; margin-left: 6px;"></div>
 </div>
 </div>
 </div>
@@ -108,10 +112,10 @@ Your audience came for a **story**, not a statistics lecture. Data should be the
 # Example: Powers of Ten (1977)
 
 <div style="text-align: center;">
-<div class="yt-player" data-video="0fKBhvDjuy0" style="display: inline-block; position: relative; width: 85%; max-width: 900px; cursor: pointer;">
-<img src="https://img.youtube.com/vi/0fKBhvDjuy0/maxresdefault.jpg" style="width: 100%; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.2);">
-<div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 80px; height: 56px; background: rgba(0,0,0,0.7); border-radius: 14px; display: flex; align-items: center; justify-content: center;">
-<div style="width: 0; height: 0; border-left: 24px solid white; border-top: 14px solid transparent; border-bottom: 14px solid transparent; margin-left: 4px;"></div>
+<div class="yt-player" data-video="0fKBhvDjuy0" style="display: inline-block; position: relative; cursor: pointer;">
+<img src="https://img.youtube.com/vi/0fKBhvDjuy0/maxresdefault.jpg" style="width: 1100px; border-radius: 16px;">
+<div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 120px; height: 84px; background: rgba(0,0,0,0.75); border-radius: 20px; display: flex; align-items: center; justify-content: center;">
+<div style="width: 0; height: 0; border-left: 36px solid white; border-top: 21px solid transparent; border-bottom: 21px solid transparent; margin-left: 6px;"></div>
 </div>
 </div>
 </div>
@@ -204,83 +208,61 @@ Half-baked ideas are encouraged. You can pitch multiple ideas and get help choos
 </div>
 
 <script>
-// YouTube player: creates a clickable overlay outside Marp's SVG sandbox.
-// On each slide change, checks if the current slide has a yt-player element
-// and creates a transparent click target over the entire slide area.
+// YouTube player overlay for Marp slides.
+// Clicks on .yt-player thumbnails open a YouTube iframe overlay.
+// Videos are cleared whenever the slide changes.
 (function() {
-  var activeOverlay = null;
-  var activeIframe = null;
+  var overlay = null;
+  var iframe = null;
 
-  function getVideoIdForCurrentSlide() {
-    // Marp uses hash #N for slide number. Find matching section.
-    var hash = location.hash.replace('#', '');
-    var slideNum = parseInt(hash) || 1;
-    var sections = document.querySelectorAll('section[id]');
-    for (var i = 0; i < sections.length; i++) {
-      if (sections[i].id == String(slideNum)) {
-        var player = sections[i].querySelector('.yt-player');
-        if (player) return player.getAttribute('data-video');
-      }
-    }
-    return null;
+  function cleanup() {
+    if (overlay) { overlay.remove(); overlay = null; }
+    if (iframe) { iframe.remove(); iframe = null; }
   }
 
-  function removePlayer() {
-    if (activeOverlay) { activeOverlay.remove(); activeOverlay = null; }
-    if (activeIframe) { activeIframe.remove(); activeIframe = null; }
-  }
+  function playVideo(videoId) {
+    cleanup();
+    overlay = document.createElement('div');
+    overlay.style.cssText = 'position:fixed;z-index:99998;top:0;left:0;width:100vw;height:100vh;background:rgba(0,0,0,0.7);cursor:pointer;';
+    overlay.onclick = cleanup;
 
-  function showPlayer(videoId) {
-    removePlayer();
-    // Create a centered iframe overlay covering the slide
-    var iframe = document.createElement('iframe');
+    iframe = document.createElement('iframe');
     iframe.src = 'https://www.youtube.com/embed/' + videoId + '?autoplay=1&rel=0';
     iframe.allow = 'accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture';
     iframe.allowFullscreen = true;
     iframe.style.cssText = 'position:fixed;z-index:99999;border:none;border-radius:12px;' +
-      'top:50%;left:50%;transform:translate(-50%,-50%);width:80vw;height:45vw;max-width:960px;max-height:540px;' +
+      'top:50%;left:50%;transform:translate(-50%,-50%);' +
+      'width:80vw;height:45vw;max-width:960px;max-height:540px;' +
       'box-shadow:0 8px 40px rgba(0,0,0,0.5);';
-    activeIframe = iframe;
-    // Backdrop
-    var backdrop = document.createElement('div');
-    backdrop.style.cssText = 'position:fixed;z-index:99998;top:0;left:0;width:100vw;height:100vh;background:rgba(0,0,0,0.6);cursor:pointer;';
-    backdrop.onclick = function() { removePlayer(); };
-    activeOverlay = backdrop;
-    document.body.appendChild(backdrop);
+
+    document.body.appendChild(overlay);
     document.body.appendChild(iframe);
   }
 
-  function setupClickZone() {
-    // Remove any existing click zone
-    var old = document.getElementById('yt-click-zone');
-    if (old) old.remove();
-    var videoId = getVideoIdForCurrentSlide();
-    if (!videoId) return;
-    // Create an invisible click zone over the slide
-    var zone = document.createElement('div');
-    zone.id = 'yt-click-zone';
-    zone.title = 'Click to play video';
-    zone.style.cssText = 'position:fixed;z-index:9999;top:0;left:0;width:100vw;height:100vh;cursor:pointer;';
-    zone.onclick = function() {
-      zone.remove();
-      showPlayer(videoId);
-    };
-    document.body.appendChild(zone);
-  }
+  // Listen for clicks on .yt-player elements (bubbles up from SVG foreignObject)
+  document.addEventListener('click', function(e) {
+    var player = e.target.closest('.yt-player');
+    if (!player) return;
+    var videoId = player.getAttribute('data-video');
+    if (videoId) {
+      e.preventDefault();
+      e.stopPropagation();
+      playVideo(videoId);
+    }
+  }, true);
 
   // Escape to close
   document.addEventListener('keydown', function(e) {
-    if (e.key === 'Escape') removePlayer();
+    if (e.key === 'Escape') cleanup();
   });
 
-  // Re-check on hash change (slide navigation)
-  window.addEventListener('hashchange', function() {
-    removePlayer();
-    setupClickZone();
-  });
-
-  // Initial setup after page loads
-  window.addEventListener('load', function() { setupClickZone(); });
-  setTimeout(setupClickZone, 1000);
+  // Clean up on ANY slide navigation — poll the hash every 200ms
+  var lastHash = location.hash;
+  setInterval(function() {
+    if (location.hash !== lastHash) {
+      lastHash = location.hash;
+      cleanup();
+    }
+  }, 200);
 })();
 </script>
