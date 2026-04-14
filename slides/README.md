@@ -94,10 +94,11 @@ Course schedule for Spring term 2026 (Mar 30 – Jun 3).
 ### Monday Apr 13 — Review Assignment 2 Stories
 - Peer feedback and discussion (no slides)
 
-### Wednesday Apr 15 — Introduction to Programming
-- [slides](intro-to-python.html)
-- Getting set up in Google Colab
-- Introduction to programming concepts
+### Wednesday Apr 15 — Programming Basics
+- [slides](programming-basics.html)
+- [Companion notebook](programming_basics.ipynb)
+- Hands-on practice with real programming problems
+- Git and GitHub: the daily workflow
 
 ### Thursday Apr 16 (X-hour) — Introduction to Vibe Coding
 - [slides](vibe-coding.html)
@@ -111,7 +112,7 @@ Course schedule for Spring term 2026 (Mar 30 – Jun 3).
 #### Resources
 - [Getting set up on Google Colaboratory](https://colab.research.google.com/github/ContextLab/cs-for-psych/blob/master/slides/module_1/introduction_and_overview.ipynb) (cs-for-psych)
 - [Introduction to Programming for Psychological Scientists](https://github.com/ContextLab/cs-for-psych/tree/master/slides)
-- [High-level introduction to Python](https://github.com/ContextLab/storytelling-with-data/blob/master/slides/intro_to_python.ipynb)
+- [Programming basics companion notebook](https://colab.research.google.com/github/ContextLab/storytelling-with-data/blob/master/slides/programming_basics.ipynb) (Google Colab)
 - [Codecademy's Introduction to Python](https://www.codecademy.com/learn/learn-python)
 - [Learning to code with Python and Jupyter Notebooks](http://introtopython.org/)
 - [Introduction to using the command line](https://www.codecademy.com/learn/learn-the-command-line)
