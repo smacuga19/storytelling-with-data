@@ -19,7 +19,7 @@ Spring 2026
 
 <div class="note-box" data-title="Plan for today">
 
-1. **Two deep practice problems** — exploratory analysis you'll actually reuse
+1. **Two practice problems** — hands-on worked examples
 2. **Git and GitHub** — forking, the workflow you'll use for this course
 3. **Everything you need** to submit Assignment 3 on Monday
 
@@ -27,7 +27,7 @@ Spring 2026
 
 <div class="tip-box" data-title="Follow along">
 
-Open the [companion notebook in Colab](https://colab.research.google.com/github/ContextLab/storytelling-with-data/blob/master/slides/programming_basics.ipynb) so you can run every example yourself.
+Open the [companion notebook in Colab](https://colab.research.google.com/github/ContextLab/storytelling-with-data/blob/master/slides/programming_basics.ipynb) so you can run through the examples yourself.
 
 </div>
 
@@ -62,30 +62,24 @@ This looks simple but it's a complete analysis pipeline: **group**, **aggregate*
 
 # Problem 1: one reasonable solution
 
-<style scoped>
-section pre { font-size: 0.65em; line-height: 1.25; margin-bottom: 0.5em; }
-</style>
-
-```python
-# Step 1: group plays by genre
+<pre style="font-size: 14px !important; line-height: 1.3 !important; padding: 0.6em 0.9em !important; margin: 0.2em auto 0.4em auto !important; max-width: 820px !important; background: rgba(0, 105, 62, 0.06) !important; border-radius: 8px !important; border-left: 4px solid #00693e !important; font-family: 'Fira Code', Menlo, monospace !important;"><code style="background: none !important; padding: 0 !important; color: #12312b !important; font-size: 14px !important;"><span style="color: #888"># Step 1: group plays by genre</span>
 plays_by_genre = {}
-for song in songs:
-    g = song['genre']
-    plays_by_genre.setdefault(g, []).append(song['plays'])
+<span style="color: #00693e; font-weight: 600">for</span> song <span style="color: #00693e; font-weight: 600">in</span> songs:
+    g = song[<span style="color: #9d162e">'genre'</span>]
+    plays_by_genre.setdefault(g, []).append(song[<span style="color: #9d162e">'plays'</span>])
 
-# Step 2: compute the average plays per genre
+<span style="color: #888"># Step 2: compute the average plays per genre</span>
 avg_by_genre = {
-    g: sum(plays) / len(plays)
-    for g, plays in plays_by_genre.items()
+    g: <span style="color: #267aba">sum</span>(plays) / <span style="color: #267aba">len</span>(plays)
+    <span style="color: #00693e; font-weight: 600">for</span> g, plays <span style="color: #00693e; font-weight: 600">in</span> plays_by_genre.items()
 }
 
-# Step 3: sort genres by average plays, descending
-ranked = sorted(avg_by_genre.items(), key=lambda item: -item[1])
+<span style="color: #888"># Step 3: sort genres by average plays, descending</span>
+ranked = <span style="color: #267aba">sorted</span>(avg_by_genre.items(), key=<span style="color: #00693e; font-weight: 600">lambda</span> item: -item[1])
 
-# Step 4: take the top 3
+<span style="color: #888"># Step 4: take the top 3</span>
 top_three = ranked[:3]
-print(top_three)
-```
+<span style="color: #267aba">print</span>(top_three)</code></pre>
 
 <div class="note-box" data-title="What to notice">
 
