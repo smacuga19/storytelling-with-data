@@ -54,14 +54,17 @@ songs = [
 
 <div class="tip-box" data-title="Think first">
 
-This looks simple but it's a complete analysis pipeline: **group**, **aggregate**, **sort**, **slice**. You'll do some version of this in every Part II project.
+This looks simple but it's a complete analysis pipeline: **group**, **aggregate**, **sort**, **slice**. You'll likely do some version of this in every Part II project.
 
 </div>
 
 ---
-<!-- _class: scale-80 -->
 
 # Problem 1: one reasonable solution
+
+<style scoped>
+section pre { font-size: 0.65em; line-height: 1.25; margin-bottom: 0.5em; }
+</style>
 
 ```python
 # Step 1: group plays by genre
